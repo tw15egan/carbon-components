@@ -14,14 +14,17 @@ import { OverflowMenuHorizontal16 } from '@carbon/icons-react';
 
 const { prefix } = settings;
 
-const BreadcrumbItem = ({
-  'aria-current': ariaCurrent,
-  children,
-  className: customClassName,
-  href,
-  isCurrentPage,
-  ...rest
-}) => {
+const BreadcrumbItem = React.forwardRef(function BreadcrumbItem(
+  {
+    'aria-current': ariaCurrent,
+    children,
+    className: customClassName,
+    href,
+    isCurrentPage,
+    ...rest
+  },
+  ref
+) {
   const className = cx({
     [`${prefix}--breadcrumb-item`]: true,
     // We set the current class only if `isCurrentPage` is passed in and we do
@@ -52,7 +55,7 @@ const BreadcrumbItem = ({
 
   if (typeof children === 'string' && href) {
     return (
-      <li className={className} {...rest}>
+      <li className={className} ref={ref} {...rest}>
         <Link href={href} aria-current={ariaCurrent}>
           {children}
         </Link>
@@ -61,14 +64,16 @@ const BreadcrumbItem = ({
   }
 
   return (
-    <li className={className} {...rest}>
+    <li className={className} ref={ref} {...rest}>
       {React.cloneElement(children, {
         'aria-current': ariaCurrent,
         className: `${prefix}--link`,
       })}
     </li>
   );
-};
+});
+
+BreadcrumbItem.displayName = 'BreadcrumbItem';
 
 BreadcrumbItem.propTypes = {
   'aria-current': PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),

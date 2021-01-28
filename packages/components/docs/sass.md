@@ -34,17 +34,30 @@
   - [✅exports [mixin]](#exports-mixin)
 - [@carbon/layout](#carbonlayout)
   - [✅carbon--grid-gutter [variable]](#carbon--grid-gutter-variable)
+  - [✅grid-gutter [variable]](#grid-gutter-variable)
   - [✅carbon--grid-gutter--condensed [variable]](#carbon--grid-gutter--condensed-variable)
+  - [✅grid-gutter--condensed [variable]](#grid-gutter--condensed-variable)
   - [✅carbon--grid-breakpoints [variable]](#carbon--grid-breakpoints-variable)
+  - [✅grid-breakpoints [variable]](#grid-breakpoints-variable)
   - [✅carbon--breakpoint-next [function]](#carbon--breakpoint-next-function)
+  - [✅breakpoint-next [function]](#breakpoint-next-function)
   - [✅carbon--breakpoint-prev [function]](#carbon--breakpoint-prev-function)
+  - [✅breakpoint-prev [function]](#breakpoint-prev-function)
   - [✅carbon--is-smallest-breakpoint [function]](#carbon--is-smallest-breakpoint-function)
+  - [✅is-smallest-breakpoint [function]](#is-smallest-breakpoint-function)
   - [✅carbon--largest-breakpoint-name [function]](#carbon--largest-breakpoint-name-function)
+  - [✅largest-breakpoint-name [function]](#largest-breakpoint-name-function)
+  - [✅breakpoint-infix [function]](#breakpoint-infix-function)
   - [✅carbon--breakpoint-infix [function]](#carbon--breakpoint-infix-function)
+  - [✅breakpoint-up [mixin]](#breakpoint-up-mixin)
   - [✅carbon--breakpoint-up [mixin]](#carbon--breakpoint-up-mixin)
+  - [✅breakpoint-down [mixin]](#breakpoint-down-mixin)
   - [✅carbon--breakpoint-down [mixin]](#carbon--breakpoint-down-mixin)
+  - [✅breakpoint-between [mixin]](#breakpoint-between-mixin)
   - [✅carbon--breakpoint-between [mixin]](#carbon--breakpoint-between-mixin)
+  - [✅largest-breakpoint [mixin]](#largest-breakpoint-mixin)
   - [✅carbon--largest-breakpoint [mixin]](#carbon--largest-breakpoint-mixin)
+  - [✅breakpoint [mixin]](#breakpoint-mixin)
   - [✅carbon--breakpoint [mixin]](#carbon--breakpoint-mixin)
   - [✅carbon--container-01 [variable]](#carbon--container-01-variable)
   - [✅carbon--container-02 [variable]](#carbon--container-02-variable)
@@ -58,13 +71,21 @@
   - [✅container-04 [variable]](#container-04-variable)
   - [✅container-05 [variable]](#container-05-variable)
   - [✅carbon--base-font-size [variable]](#carbon--base-font-size-variable)
+  - [✅base-font-size [variable]](#base-font-size-variable)
   - [✅carbon--rem [function]](#carbon--rem-function)
+  - [✅rem [function]](#rem-function)
   - [✅carbon--em [function]](#carbon--em-function)
+  - [✅em [function]](#em-function)
   - [✅carbon--fluid-spacing-01 [variable]](#carbon--fluid-spacing-01-variable)
+  - [✅fluid-spacing-01 [variable]](#fluid-spacing-01-variable)
   - [✅carbon--fluid-spacing-02 [variable]](#carbon--fluid-spacing-02-variable)
+  - [✅fluid-spacing-02 [variable]](#fluid-spacing-02-variable)
   - [✅carbon--fluid-spacing-03 [variable]](#carbon--fluid-spacing-03-variable)
+  - [✅fluid-spacing-03 [variable]](#fluid-spacing-03-variable)
   - [✅carbon--fluid-spacing-04 [variable]](#carbon--fluid-spacing-04-variable)
+  - [✅fluid-spacing-04 [variable]](#fluid-spacing-04-variable)
   - [✅carbon--fluid-spacing [variable]](#carbon--fluid-spacing-variable)
+  - [✅fluid-spacing [variable]](#fluid-spacing-variable)
   - [✅fluid-spacing-01 [variable]](#fluid-spacing-01-variable)
   - [✅fluid-spacing-02 [variable]](#fluid-spacing-02-variable)
   - [✅fluid-spacing-03 [variable]](#fluid-spacing-03-variable)
@@ -95,18 +116,31 @@
   - [✅carbon--mini-unit-size [variable]](#carbon--mini-unit-size-variable)
   - [✅carbon--mini-units [function]](#carbon--mini-units-function)
   - [✅carbon--spacing-01 [variable]](#carbon--spacing-01-variable)
+  - [✅spacing-01 [variable]](#spacing-01-variable)
   - [✅carbon--spacing-02 [variable]](#carbon--spacing-02-variable)
+  - [✅spacing-02 [variable]](#spacing-02-variable)
   - [✅carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
+  - [✅spacing-03 [variable]](#spacing-03-variable)
   - [✅carbon--spacing-04 [variable]](#carbon--spacing-04-variable)
+  - [✅spacing-04 [variable]](#spacing-04-variable)
   - [✅carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
+  - [✅spacing-05 [variable]](#spacing-05-variable)
   - [✅carbon--spacing-06 [variable]](#carbon--spacing-06-variable)
+  - [✅spacing-06 [variable]](#spacing-06-variable)
   - [✅carbon--spacing-07 [variable]](#carbon--spacing-07-variable)
+  - [✅spacing-07 [variable]](#spacing-07-variable)
   - [✅carbon--spacing-08 [variable]](#carbon--spacing-08-variable)
+  - [✅spacing-08 [variable]](#spacing-08-variable)
   - [✅carbon--spacing-09 [variable]](#carbon--spacing-09-variable)
+  - [✅spacing-09 [variable]](#spacing-09-variable)
   - [✅carbon--spacing-10 [variable]](#carbon--spacing-10-variable)
+  - [✅spacing-10 [variable]](#spacing-10-variable)
   - [✅carbon--spacing-11 [variable]](#carbon--spacing-11-variable)
+  - [✅spacing-11 [variable]](#spacing-11-variable)
   - [✅carbon--spacing-12 [variable]](#carbon--spacing-12-variable)
+  - [✅spacing-12 [variable]](#spacing-12-variable)
   - [✅carbon--spacing [variable]](#carbon--spacing-variable)
+  - [✅spacing [variable]](#spacing-variable)
   - [✅spacing-01 [variable]](#spacing-01-variable)
   - [✅spacing-02 [variable]](#spacing-02-variable)
   - [✅spacing-03 [variable]](#spacing-03-variable)
@@ -120,7 +154,10 @@
   - [✅spacing-11 [variable]](#spacing-11-variable)
   - [✅spacing-12 [variable]](#spacing-12-variable)
   - [✅map-deep-get [function]](#map-deep-get-function)
+  - [✅map-deep-get [function]](#map-deep-get-function)
   - [✅carbon--key-by-index [function]](#carbon--key-by-index-function)
+  - [✅key-by-index [function]](#key-by-index-function)
+  - [✅last-map-item [function]](#last-map-item-function)
   - [✅last-map-item [function]](#last-map-item-function)
 - [@carbon/motion](#carbonmotion)
   - [✅carbon--easings [variable]](#carbon--easings-variable)
@@ -1817,6 +1854,7 @@ Generate the CSS for a grid for the given breakpoints and gutters
   - [carbon--hang [mixin]](#carbon--hang-mixin)
   - [carbon--aspect-ratio [mixin]](#carbon--aspect-ratio-mixin)
   - [prefix [variable]](#prefix-variable)
+  - [grid-gutter [variable]](#grid-gutter-variable)
 
 ### ✅prefix [variable]
 
@@ -2001,6 +2039,24 @@ $carbon--grid-gutter: carbon--rem(32px);
 - **Used by**:
   - [carbon--make-container [mixin]](#carbon--make-container-mixin)
 
+### ✅grid-gutter [variable]
+
+Carbon gutter size in rem
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$grid-gutter: convert.rem(32px);
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--grid [mixin]](#carbon--grid-mixin)
+
 ### ✅carbon--grid-gutter--condensed [variable]
 
 Carbon condensed gutter size in rem
@@ -2010,6 +2066,22 @@ Carbon condensed gutter size in rem
 
 ```scss
 $carbon--grid-gutter--condensed: carbon--rem(1px);
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+
+### ✅grid-gutter--condensed [variable]
+
+Carbon condensed gutter size in rem
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$grid-gutter--condensed: convert.rem(1px);
 ```
 
 </details>
@@ -2057,6 +2129,46 @@ $carbon--grid-breakpoints: (
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Map`
 
+### ✅grid-breakpoints [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$grid-breakpoints: (
+  sm: (
+    columns: 4,
+    margin: 0,
+    width: convert.rem(320px),
+  ),
+  md: (
+    columns: 8,
+    margin: convert.rem(16px),
+    width: convert.rem(672px),
+  ),
+  lg: (
+    columns: 16,
+    margin: convert.rem(16px),
+    width: convert.rem(1056px),
+  ),
+  xlg: (
+    columns: 16,
+    margin: convert.rem(16px),
+    width: convert.rem(1312px),
+  ),
+  max: (
+    columns: 16,
+    margin: convert.rem(24px),
+    width: convert.rem(1584px),
+  ),
+);
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Map`
+
 ### ✅carbon--breakpoint-next [function]
 
 Get the value of the next breakpoint, or null for the last breakpoint
@@ -2092,6 +2204,40 @@ Get the value of the next breakpoint, or null for the last breakpoint
 - **Returns**: `String`
 - **Used by**:
   - [fluid-type-size [mixin]](#fluid-type-size-mixin)
+
+### ✅breakpoint-next [function]
+
+Get the value of the next breakpoint, or null for the last breakpoint
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function breakpoint-next(
+  $name,
+  $breakpoints: $grid-breakpoints,
+  $breakpoint-names: map-keys($breakpoints)
+) {
+  $n: list.index($breakpoint-names, $name);
+  @if $n != null and $n < list.length($breakpoint-names) {
+    @return list.nth($breakpoint-names, $n + 1);
+  }
+  @return null;
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name                | Description                                                                                                     | Type     | Default value            |
+| ------------------- | --------------------------------------------------------------------------------------------------------------- | -------- | ------------------------ |
+| `$name`             | The name of the brekapoint                                                                                      | `String` | —                        |
+| `$breakpoints`      | A map of breakpoints where the key is the name of the breakpoint and the value is the values for the breakpoint | `Map`    | `$grid-breakpoints`      |
+| `$breakpoint-names` | A list of names from the `$breakpoints` map                                                                     | `List`   | `map-keys($breakpoints)` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `String`
 
 ### ✅carbon--breakpoint-prev [function]
 
@@ -2129,6 +2275,40 @@ Get the value of the previous breakpoint, or null for the first breakpoint
 - **Used by**:
   - [carbon--make-container [mixin]](#carbon--make-container-mixin)
 
+### ✅breakpoint-prev [function]
+
+Get the value of the previous breakpoint, or null for the first breakpoint
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function breakpoint-prev(
+  $name,
+  $breakpoints: $grid-breakpoints,
+  $breakpoint-names: map-keys($breakpoints)
+) {
+  $n: list.index($breakpoint-names, $name);
+  @if $n != null and $n > 1 {
+    @return list.nth($breakpoint-names, $n - 1);
+  }
+  @return null;
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name                | Description                                                                                                     | Type     | Default value            |
+| ------------------- | --------------------------------------------------------------------------------------------------------------- | -------- | ------------------------ |
+| `$name`             | The name of the brekapoint                                                                                      | `String` | —                        |
+| `$breakpoints`      | A map of breakpoints where the key is the name of the breakpoint and the value is the values for the breakpoint | `Map`    | `$grid-breakpoints`      |
+| `$breakpoint-names` | A list of names from the `$breakpoints` map                                                                     | `List`   | `map-keys($breakpoints)` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `String`
+
 ### ✅carbon--is-smallest-breakpoint [function]
 
 Check to see if the given breakpoint name
@@ -2158,6 +2338,33 @@ Check to see if the given breakpoint name
 - **Returns**: `Bool`
 - **Used by**:
   - [carbon--breakpoint-up [mixin]](#carbon--breakpoint-up-mixin)
+
+### ✅is-smallest-breakpoint [function]
+
+Check to see if the given breakpoint name
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function is-smallest-breakpoint($name, $breakpoints: $grid-breakpoints) {
+  @return list.index(map.keys($breakpoints), $name) == 1;
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name           | Description                                                                                                     | Type     | Default value       |
+| -------------- | --------------------------------------------------------------------------------------------------------------- | -------- | ------------------- |
+| `$name`        | The name of the brekapoint                                                                                      | `String` | —                   |
+| `$breakpoints` | A map of breakpoints where the key is the name of the breakpoint and the value is the values for the breakpoint | `Map`    | `$grid-breakpoints` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `Bool`
+- **Used by**:
+  - [breakpoint-up [mixin]](#breakpoint-up-mixin)
 
 ### ✅carbon--largest-breakpoint-name [function]
 
@@ -2190,6 +2397,60 @@ Returns the largest breakpoint name
 - **Used by**:
   - [carbon--largest-breakpoint [mixin]](#carbon--largest-breakpoint-mixin)
 
+### ✅largest-breakpoint-name [function]
+
+Returns the largest breakpoint name
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function largest-breakpoint-name($breakpoints: $grid-breakpoints) {
+  $total-breakpoints: list.length($breakpoints);
+  @return key-by-index($breakpoints, $total-breakpoints);
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name           | Description                                    | Type  | Default value       |
+| -------------- | ---------------------------------------------- | ----- | ------------------- |
+| `$breakpoints` | A map of breakpoints where the key is the name | `Map` | `$grid-breakpoints` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `String`
+- **Requires**:
+  - [key-by-index [function]](#key-by-index-function)
+- **Used by**:
+  - [largest-breakpoint [mixin]](#largest-breakpoint-mixin)
+
+### ✅breakpoint-infix [function]
+
+Get the infix for a given breakpoint in a list of breakpoints. Usesful for
+generate the size part in a selector, for example: `.prefix--col-sm-2`.
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function breakpoint-infix($name) {
+  @return '-#{$name}';
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name    | Description                | Type     | Default value |
+| ------- | -------------------------- | -------- | ------------- |
+| `$name` | The name of the breakpoint | `String` | —             |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `String`
+
 ### ✅carbon--breakpoint-infix [function]
 
 Get the infix for a given breakpoint in a list of breakpoints. Usesful for
@@ -2216,6 +2477,51 @@ generate the size part in a selector, for example: `.prefix--col-sm-2`.
 - **Returns**: `String`
 - **Used by**:
   - [carbon--make-grid-columns [mixin]](#carbon--make-grid-columns-mixin)
+
+### ✅breakpoint-up [mixin]
+
+Generate a media query from the width of the given breakpoint to infinity
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@mixin breakpoint-up($name, $breakpoints: $grid-breakpoints) {
+  @if meta.type-of($name) == 'number' {
+    @media (min-width: $name) {
+      @content;
+    }
+  } @else if map.has-key($breakpoints, $name) {
+    $breakpoint: map.get($breakpoints, $name);
+    $width: map.get($breakpoint, width);
+    @if is-smallest-breakpoint($name, $breakpoints) {
+      @content;
+    } @else {
+      @media (min-width: $width) {
+        @content;
+      }
+    }
+  } @else {
+    @error 'Unable to find a breakpoint with name `#{$name}`. Expected one of: (#{map.keys($breakpoints)})';
+  }
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name           | Description                                    | Type               | Default value       |
+| -------------- | ---------------------------------------------- | ------------------ | ------------------- |
+| `$name`        | —                                              | `String \| Number` | —                   |
+| `$breakpoints` | A map of breakpoints where the key is the name | `Map`              | `$grid-breakpoints` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Requires**:
+  - [is-smallest-breakpoint [function]](#is-smallest-breakpoint-function)
+- **Used by**:
+  - [breakpoint-between [mixin]](#breakpoint-between-mixin)
+  - [breakpoint [mixin]](#breakpoint-mixin)
 
 ### ✅carbon--breakpoint-up [mixin]
 
@@ -2263,6 +2569,49 @@ Generate a media query from the width of the given breakpoint to infinity
   - [carbon--breakpoint [mixin]](#carbon--breakpoint-mixin)
   - [accordion [mixin]](#accordion-mixin)
 
+### ✅breakpoint-down [mixin]
+
+Generate a media query for the maximum width of the given styles
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@mixin breakpoint-down($name, $breakpoints: $grid-breakpoints) {
+  @if meta.type-of($name) == 'number' {
+    @media (max-width: $name) {
+      @content;
+    }
+  } @else if map.has-key($breakpoints, $name) {
+    // We borrow this logic from bootstrap for specifying the value of the
+    // max-width. The maximum width is calculated by finding the breakpoint and
+    // subtracting .02 from its value. This value is used instead of .01 to
+    // avoid rounding issues in Safari
+    // https://github.com/twbs/bootstrap/blob/c5b1919deaf5393fcca9e9b9d7ce9c338160d99d/scss/mixins/_breakpoints.scss#L34-L46
+    $breakpoint: map.get($breakpoints, $name);
+    $width: map.get($breakpoint, width) - 0.02;
+    @media (max-width: $width) {
+      @content;
+    }
+  } @else {
+    @error 'Unable to find a breakpoint with name `#{$name}`. Expected one of: (#{map.keys($breakpoints)})';
+  }
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name           | Description                                    | Type               | Default value       |
+| -------------- | ---------------------------------------------- | ------------------ | ------------------- |
+| `$name`        | —                                              | `String \| Number` | —                   |
+| `$breakpoints` | A map of breakpoints where the key is the name | `Map`              | `$grid-breakpoints` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Used by**:
+  - [breakpoint-between [mixin]](#breakpoint-between-mixin)
+
 ### ✅carbon--breakpoint-down [mixin]
 
 Generate a media query for the maximum width of the given styles
@@ -2307,6 +2656,55 @@ Generate a media query for the maximum width of the given styles
   - [carbon--breakpoint-between [mixin]](#carbon--breakpoint-between-mixin)
   - [pagination [mixin]](#pagination-mixin)
   - [carbon-side-nav [mixin]](#carbon-side-nav-mixin)
+
+### ✅breakpoint-between [mixin]
+
+Generate a media query for the range between the lower and upper breakpoints
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@mixin breakpoint-between($lower, $upper, $breakpoints: $grid-breakpoints) {
+  $is-number-lower: meta.type-of($lower) == 'number';
+  $is-number-upper: meta.type-of($upper) == 'number';
+  $min: if($is-number-lower, $lower, map.get($breakpoints, $lower));
+  $max: if($is-number-upper, $upper, map.get($breakpoints, $upper));
+
+  @if $min and $max {
+    $min-width: if(not $is-number-lower and $min, map.get($min, width), $min);
+    $max-width: if(not $is-number-upper and $max, map.get($max, width), $max);
+    @media (min-width: $min-width) and (max-width: $max-width) {
+      @content;
+    }
+  } @else if $min != null and $max == null {
+    @include breakpoint-up($lower) {
+      @content;
+    }
+  } @else if $min == null and $max != null {
+    @include breakpoint-down($upper) {
+      @content;
+    }
+  } @else {
+    @error 'Unable to find a breakpoint to satisfy: (#{$lower},#{$upper}). Expected both to be one of (#{map.keys($breakpoints)}).';
+  }
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name           | Description                                    | Type               | Default value       |
+| -------------- | ---------------------------------------------- | ------------------ | ------------------- |
+| `$lower`       | —                                              | `String \| Number` | —                   |
+| `$upper`       | —                                              | `String \| Number` | —                   |
+| `$breakpoints` | A map of breakpoints where the key is the name | `Map`              | `$grid-breakpoints` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Requires**:
+  - [breakpoint-up [mixin]](#breakpoint-up-mixin)
+  - [breakpoint-down [mixin]](#breakpoint-down-mixin)
 
 ### ✅carbon--breakpoint-between [mixin]
 
@@ -2361,6 +2759,34 @@ Generate a media query for the range between the lower and upper breakpoints
   - [carbon--breakpoint-up [mixin]](#carbon--breakpoint-up-mixin)
   - [carbon--breakpoint-down [mixin]](#carbon--breakpoint-down-mixin)
 
+### ✅largest-breakpoint [mixin]
+
+Generate media query for the largest breakpoint
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@mixin largest-breakpoint($breakpoints: $grid-breakpoints) {
+  @include breakpoint(largest-breakpoint-name()) {
+    @content;
+  }
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name           | Description                                    | Type  | Default value       |
+| -------------- | ---------------------------------------------- | ----- | ------------------- |
+| `$breakpoints` | A map of breakpoints where the key is the name | `Map` | `$grid-breakpoints` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Requires**:
+  - [breakpoint [mixin]](#breakpoint-mixin)
+  - [largest-breakpoint-name [function]](#largest-breakpoint-name-function)
+
 ### ✅carbon--largest-breakpoint [mixin]
 
 Generate media query for the largest breakpoint
@@ -2390,6 +2816,36 @@ Generate media query for the largest breakpoint
   - [carbon--largest-breakpoint-name [function]](#carbon--largest-breakpoint-name-function)
 - **Used by**:
   - [carbon--grid [mixin]](#carbon--grid-mixin)
+
+### ✅breakpoint [mixin]
+
+Generate a media query for a given breakpoint
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@mixin breakpoint($name, $breakpoints: $grid-breakpoints) {
+  @include breakpoint-up($name, $breakpoints) {
+    @content;
+  }
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name           | Description                                    | Type               | Default value       |
+| -------------- | ---------------------------------------------- | ------------------ | ------------------- |
+| `$name`        | —                                              | `String \| Number` | —                   |
+| `$breakpoints` | A map of breakpoints where the key is the name | `Map`              | `$grid-breakpoints` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Requires**:
+  - [breakpoint-up [mixin]](#breakpoint-up-mixin)
+- **Used by**:
+  - [largest-breakpoint [mixin]](#largest-breakpoint-mixin)
 
 ### ✅carbon--breakpoint [mixin]
 
@@ -2637,6 +3093,25 @@ $carbon--base-font-size: 16px;
   - [carbon--rem [function]](#carbon--rem-function)
   - [carbon--em [function]](#carbon--em-function)
 
+### ✅base-font-size [variable]
+
+Default font size
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$base-font-size: 16px;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [rem [function]](#rem-function)
+  - [em [function]](#em-function)
+
 ### ✅carbon--rem [function]
 
 Convert a given px unit to a rem unit
@@ -2671,6 +3146,86 @@ Convert a given px unit to a rem unit
   - [carbon--mini-units [function]](#carbon--mini-units-function)
   - [toggle [mixin]](#toggle-mixin)
 
+### ✅rem [function]
+
+Convert a given px unit to a rem unit
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function rem($px) {
+  @if unit($px) != 'px' {
+    // TODO: update to @error in v11
+    @warn "Expected argument $px to be of type `px`, instead received: `#{unit($px)}`";
+  }
+
+  @return ($px / $base-font-size) * 1rem;
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name  | Description         | Type     | Default value |
+| ----- | ------------------- | -------- | ------------- |
+| `$px` | Number with px unit | `Number` | —             |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `Number` Number with rem unit
+- **Requires**:
+  - [base-font-size [variable]](#base-font-size-variable)
+- **Used by**:
+  - [accordion [mixin]](#accordion-mixin)
+  - [breadcrumb [mixin]](#breadcrumb-mixin)
+  - [button [mixin]](#button-mixin)
+  - [button-base [mixin]](#button-base-mixin)
+  - [checkbox [mixin]](#checkbox-mixin)
+  - [snippet [mixin]](#snippet-mixin)
+  - [bx--snippet [mixin]](#bx--snippet-mixin)
+  - [content-switcher [mixin]](#content-switcher-mixin)
+  - [data-table-v2-action [mixin]](#data-table-v2-action-mixin)
+  - [data-table-core [mixin]](#data-table-core-mixin)
+  - [data-table-expandable [mixin]](#data-table-expandable-mixin)
+  - [data-table-sort [mixin]](#data-table-sort-mixin)
+  - [date-picker [mixin]](#date-picker-mixin)
+  - [dropdown [mixin]](#dropdown-mixin)
+  - [file-uploader [mixin]](#file-uploader-mixin)
+  - [form [mixin]](#form-mixin)
+  - [inline-loading [mixin]](#inline-loading-mixin)
+  - [lists [mixin]](#lists-mixin)
+  - [listbox [mixin]](#listbox-mixin)
+  - [loading [mixin]](#loading-mixin)
+  - [modal [mixin]](#modal-mixin)
+  - [multiselect [mixin]](#multiselect-mixin)
+  - [inline-notifications [mixin]](#inline-notifications-mixin)
+  - [toast-notifications [mixin]](#toast-notifications-mixin)
+  - [number-input [mixin]](#number-input-mixin)
+  - [overflow-menu [mixin]](#overflow-menu-mixin)
+  - [pagination [mixin]](#pagination-mixin)
+  - [unstable_pagination [mixin]](#unstable_pagination-mixin)
+  - [progress-indicator [mixin]](#progress-indicator-mixin)
+  - [radio-button [mixin]](#radio-button-mixin)
+  - [search [mixin]](#search-mixin)
+  - [select [mixin]](#select-mixin)
+  - [slider [mixin]](#slider-mixin)
+  - [tabs [mixin]](#tabs-mixin)
+  - [tags [mixin]](#tags-mixin)
+  - [text-area [mixin]](#text-area-mixin)
+  - [text-input [mixin]](#text-input-mixin)
+  - [time-picker [mixin]](#time-picker-mixin)
+  - [toggle [mixin]](#toggle-mixin)
+  - [toolbar [mixin]](#toolbar-mixin)
+  - [tooltip--icon [mixin]](#tooltip--icon-mixin)
+  - [tooltip--definition--legacy [mixin]](#tooltip--definition--legacy-mixin)
+  - [tooltip [mixin]](#tooltip-mixin)
+  - [treeview [mixin]](#treeview-mixin)
+  - [carbon-header [mixin]](#carbon-header-mixin)
+  - [carbon-navigation [mixin]](#carbon-navigation-mixin)
+  - [carbon-side-nav [mixin]](#carbon-side-nav-mixin)
+  - [carbon-switcher [mixin]](#carbon-switcher-mixin)
+
 ### ✅carbon--em [function]
 
 Convert a given px unit to a em unit
@@ -2702,6 +3257,37 @@ Convert a given px unit to a em unit
 - **Requires**:
   - [carbon--base-font-size [variable]](#carbon--base-font-size-variable)
 
+### ✅em [function]
+
+Convert a given px unit to a em unit
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function em($px) {
+  @if unit($px) != 'px' {
+    // TODO: update to @error in v11
+    @warn "Expected argument $px to be of type `px`, instead received: `#{unit($px)}`";
+  }
+
+  @return ($px / $base-font-size) * 1em;
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name  | Description         | Type     | Default value |
+| ----- | ------------------- | -------- | ------------- |
+| `$px` | Number with px unit | `Number` | —             |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `Number` Number with em unit
+- **Requires**:
+  - [base-font-size [variable]](#base-font-size-variable)
+
 ### ✅carbon--fluid-spacing-01 [variable]
 
 <details>
@@ -2717,6 +3303,22 @@ $carbon--fluid-spacing-01: 0;
 - **Type**: `Number`
 - **Aliased**:
   - `fluid-spacing-01`
+
+### ✅fluid-spacing-01 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$fluid-spacing-01: 0;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅carbon--fluid-spacing-02 [variable]
 
@@ -2734,6 +3336,22 @@ $carbon--fluid-spacing-02: 2vw;
 - **Aliased**:
   - `fluid-spacing-02`
 
+### ✅fluid-spacing-02 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$fluid-spacing-02: 2vw;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+
 ### ✅carbon--fluid-spacing-03 [variable]
 
 <details>
@@ -2749,6 +3367,22 @@ $carbon--fluid-spacing-03: 5vw;
 - **Type**: `Number`
 - **Aliased**:
   - `fluid-spacing-03`
+
+### ✅fluid-spacing-03 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$fluid-spacing-03: 5vw;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅carbon--fluid-spacing-04 [variable]
 
@@ -2766,6 +3400,22 @@ $carbon--fluid-spacing-04: 10vw;
 - **Aliased**:
   - `fluid-spacing-04`
 
+### ✅fluid-spacing-04 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$fluid-spacing-04: 10vw;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+
 ### ✅carbon--fluid-spacing [variable]
 
 <details>
@@ -2777,6 +3427,25 @@ $carbon--fluid-spacing: (
   $carbon--fluid-spacing-02,
   $carbon--fluid-spacing-03,
   $carbon--fluid-spacing-04
+);
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `List`
+
+### ✅fluid-spacing [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$fluid-spacing: (
+  $fluid-spacing-01,
+  $fluid-spacing-02,
+  $fluid-spacing-03,
+  $fluid-spacing-04
 );
 ```
 
@@ -2799,8 +3468,6 @@ $fluid-spacing-01: $carbon--fluid-spacing-01;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--fluid-spacing-01`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅fluid-spacing-02 [variable]
 
@@ -2816,8 +3483,6 @@ $fluid-spacing-02: $carbon--fluid-spacing-02;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--fluid-spacing-02`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅fluid-spacing-03 [variable]
 
@@ -2833,8 +3498,6 @@ $fluid-spacing-03: $carbon--fluid-spacing-03;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--fluid-spacing-03`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅fluid-spacing-04 [variable]
 
@@ -2850,8 +3513,6 @@ $fluid-spacing-04: $carbon--fluid-spacing-04;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--fluid-spacing-04`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅carbon--icon-size-01 [variable]
 
@@ -3368,7 +4029,6 @@ Get the value of the corresponding number of units
   - [carbon--mini-unit-size [variable]](#carbon--mini-unit-size-variable)
 - **Used by**:
   - [listbox [mixin]](#listbox-mixin)
-  - [multiselect [mixin]](#multiselect-mixin)
   - [unstable_pagination [mixin]](#unstable_pagination-mixin)
   - [radio-button [mixin]](#radio-button-mixin)
   - [select [mixin]](#select-mixin)
@@ -3394,6 +4054,23 @@ $carbon--spacing-01: 0.125rem;
   - [search [mixin]](#search-mixin)
   - [time-picker [mixin]](#time-picker-mixin)
 
+### ✅spacing-01 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-01: 0.125rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [data-table-core [mixin]](#data-table-core-mixin)
+
 ### ✅carbon--spacing-02 [variable]
 
 <details>
@@ -3412,11 +4089,31 @@ $carbon--spacing-02: 0.25rem;
 - **Used by**:
   - [checkbox [mixin]](#checkbox-mixin)
   - [snippet [mixin]](#snippet-mixin)
+  - [file-uploader [mixin]](#file-uploader-mixin)
   - [form [mixin]](#form-mixin)
+  - [lists [mixin]](#lists-mixin)
   - [inline-notifications [mixin]](#inline-notifications-mixin)
   - [pseudo-underline [mixin]](#pseudo-underline-mixin)
   - [tags [mixin]](#tags-mixin)
   - [tooltip [mixin]](#tooltip-mixin)
+
+### ✅spacing-02 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-02: 0.25rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [modal [mixin]](#modal-mixin)
+  - [tags [mixin]](#tags-mixin)
 
 ### ✅carbon--spacing-03 [variable]
 
@@ -3442,7 +4139,6 @@ $carbon--spacing-03: 0.5rem;
   - [file-uploader [mixin]](#file-uploader-mixin)
   - [form [mixin]](#form-mixin)
   - [listbox [mixin]](#listbox-mixin)
-  - [multiselect [mixin]](#multiselect-mixin)
   - [inline-notifications [mixin]](#inline-notifications-mixin)
   - [toast-notifications [mixin]](#toast-notifications-mixin)
   - [progress-indicator [mixin]](#progress-indicator-mixin)
@@ -3451,9 +4147,38 @@ $carbon--spacing-03: 0.5rem;
   - [padding-th [mixin]](#padding-th-mixin)
   - [tabs [mixin]](#tabs-mixin)
   - [tags [mixin]](#tags-mixin)
+  - [tile [mixin]](#tile-mixin)
   - [toggle [mixin]](#toggle-mixin)
   - [tooltip--definition--legacy [mixin]](#tooltip--definition--legacy-mixin)
   - [tooltip [mixin]](#tooltip-mixin)
+
+### ✅spacing-03 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-03: 0.5rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [accordion [mixin]](#accordion-mixin)
+  - [snippet [mixin]](#snippet-mixin)
+  - [data-table-v2-action [mixin]](#data-table-v2-action-mixin)
+  - [data-table-core [mixin]](#data-table-core-mixin)
+  - [data-table-sort [mixin]](#data-table-sort-mixin)
+  - [modal [mixin]](#modal-mixin)
+  - [multiselect [mixin]](#multiselect-mixin)
+  - [select [mixin]](#select-mixin)
+  - [tabs [mixin]](#tabs-mixin)
+  - [tooltip [mixin]](#tooltip-mixin)
+  - [treeview [mixin]](#treeview-mixin)
+  - [carbon-switcher [mixin]](#carbon-switcher-mixin)
 
 ### ✅carbon--spacing-04 [variable]
 
@@ -3475,6 +4200,24 @@ $carbon--spacing-04: 0.75rem;
   - [lists [mixin]](#lists-mixin)
   - [text-area [mixin]](#text-area-mixin)
   - [tooltip--definition--legacy [mixin]](#tooltip--definition--legacy-mixin)
+
+### ✅spacing-04 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-04: 0.75rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [data-table-core [mixin]](#data-table-core-mixin)
+  - [tabs [mixin]](#tabs-mixin)
 
 ### ✅carbon--spacing-05 [variable]
 
@@ -3521,6 +4264,36 @@ $carbon--spacing-05: 1rem;
   - [tooltip--definition--legacy [mixin]](#tooltip--definition--legacy-mixin)
   - [tooltip [mixin]](#tooltip-mixin)
 
+### ✅spacing-05 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-05: 1rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [accordion [mixin]](#accordion-mixin)
+  - [checkbox [mixin]](#checkbox-mixin)
+  - [snippet [mixin]](#snippet-mixin)
+  - [data-table-v2-action [mixin]](#data-table-v2-action-mixin)
+  - [data-table-core [mixin]](#data-table-core-mixin)
+  - [data-table-expandable [mixin]](#data-table-expandable-mixin)
+  - [modal [mixin]](#modal-mixin)
+  - [multiselect [mixin]](#multiselect-mixin)
+  - [pagination [mixin]](#pagination-mixin)
+  - [search [mixin]](#search-mixin)
+  - [select [mixin]](#select-mixin)
+  - [tabs [mixin]](#tabs-mixin)
+  - [treeview [mixin]](#treeview-mixin)
+  - [carbon-switcher [mixin]](#carbon-switcher-mixin)
+
 ### ✅carbon--spacing-06 [variable]
 
 <details>
@@ -3539,11 +4312,28 @@ $carbon--spacing-06: 1.5rem;
 - **Used by**:
   - [accordion [mixin]](#accordion-mixin)
   - [file-uploader [mixin]](#file-uploader-mixin)
-  - [lists [mixin]](#lists-mixin)
   - [listbox [mixin]](#listbox-mixin)
   - [toast-notifications [mixin]](#toast-notifications-mixin)
   - [progress-indicator [mixin]](#progress-indicator-mixin)
   - [padding-td [mixin]](#padding-td-mixin)
+
+### ✅spacing-06 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-06: 1.5rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [data-table-v2-action [mixin]](#data-table-v2-action-mixin)
+  - [data-table-core [mixin]](#data-table-core-mixin)
 
 ### ✅carbon--spacing-07 [variable]
 
@@ -3569,6 +4359,27 @@ $carbon--spacing-07: 2rem;
   - [progress-indicator [mixin]](#progress-indicator-mixin)
   - [tooltip [mixin]](#tooltip-mixin)
 
+### ✅spacing-07 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-07: 2rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [modal [mixin]](#modal-mixin)
+  - [search [mixin]](#search-mixin)
+  - [select [mixin]](#select-mixin)
+  - [treeview [mixin]](#treeview-mixin)
+  - [carbon-switcher [mixin]](#carbon-switcher-mixin)
+
 ### ✅carbon--spacing-08 [variable]
 
 <details>
@@ -3593,6 +4404,25 @@ $carbon--spacing-08: 2.5rem;
   - [tabs [mixin]](#tabs-mixin)
   - [text-area [mixin]](#text-area-mixin)
   - [text-input [mixin]](#text-input-mixin)
+
+### ✅spacing-08 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-08: 2.5rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [dropdown [mixin]](#dropdown-mixin)
+  - [search [mixin]](#search-mixin)
+  - [treeview [mixin]](#treeview-mixin)
 
 ### ✅carbon--spacing-09 [variable]
 
@@ -3621,6 +4451,28 @@ $carbon--spacing-09: 3rem;
   - [tabs [mixin]](#tabs-mixin)
   - [tile [mixin]](#tile-mixin)
 
+### ✅spacing-09 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-09: 3rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [data-table-v2-action [mixin]](#data-table-v2-action-mixin)
+  - [modal [mixin]](#modal-mixin)
+  - [search [mixin]](#search-mixin)
+  - [select [mixin]](#select-mixin)
+  - [tabs [mixin]](#tabs-mixin)
+  - [carbon-side-nav [mixin]](#carbon-side-nav-mixin)
+
 ### ✅carbon--spacing-10 [variable]
 
 <details>
@@ -3636,6 +4488,22 @@ $carbon--spacing-10: 4rem;
 - **Type**: `Number`
 - **Aliased**:
   - `spacing-10`
+
+### ✅spacing-10 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-10: 4rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅carbon--spacing-11 [variable]
 
@@ -3653,6 +4521,22 @@ $carbon--spacing-11: 5rem;
 - **Aliased**:
   - `spacing-11`
 
+### ✅spacing-11 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-11: 5rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+
 ### ✅carbon--spacing-12 [variable]
 
 <details>
@@ -3668,6 +4552,22 @@ $carbon--spacing-12: 6rem;
 - **Type**: `Number`
 - **Aliased**:
   - `spacing-12`
+
+### ✅spacing-12 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-12: 6rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅carbon--spacing [variable]
 
@@ -3696,6 +4596,33 @@ $carbon--spacing: (
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `List`
 
+### ✅spacing [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing: (
+  $spacing-01,
+  $spacing-02,
+  $spacing-03,
+  $spacing-04,
+  $spacing-05,
+  $spacing-06,
+  $spacing-07,
+  $spacing-08,
+  $spacing-09,
+  $spacing-10,
+  $spacing-11,
+  $spacing-12
+);
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `List`
+
 ### ✅spacing-01 [variable]
 
 <details>
@@ -3710,9 +4637,6 @@ $spacing-01: $carbon--spacing-01;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-01`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [data-table-core [mixin]](#data-table-core-mixin)
 
 ### ✅spacing-02 [variable]
 
@@ -3728,9 +4652,6 @@ $spacing-02: $carbon--spacing-02;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-02`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [modal [mixin]](#modal-mixin)
 
 ### ✅spacing-03 [variable]
 
@@ -3746,19 +4667,6 @@ $spacing-03: $carbon--spacing-03;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-03`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [accordion [mixin]](#accordion-mixin)
-  - [snippet [mixin]](#snippet-mixin)
-  - [data-table-v2-action [mixin]](#data-table-v2-action-mixin)
-  - [data-table-core [mixin]](#data-table-core-mixin)
-  - [data-table-sort [mixin]](#data-table-sort-mixin)
-  - [modal [mixin]](#modal-mixin)
-  - [select [mixin]](#select-mixin)
-  - [tabs [mixin]](#tabs-mixin)
-  - [tooltip [mixin]](#tooltip-mixin)
-  - [treeview [mixin]](#treeview-mixin)
-  - [carbon-switcher [mixin]](#carbon-switcher-mixin)
 
 ### ✅spacing-04 [variable]
 
@@ -3774,10 +4682,6 @@ $spacing-04: $carbon--spacing-04;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-04`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [data-table-core [mixin]](#data-table-core-mixin)
-  - [tabs [mixin]](#tabs-mixin)
 
 ### ✅spacing-05 [variable]
 
@@ -3793,21 +4697,6 @@ $spacing-05: $carbon--spacing-05;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-05`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [accordion [mixin]](#accordion-mixin)
-  - [checkbox [mixin]](#checkbox-mixin)
-  - [snippet [mixin]](#snippet-mixin)
-  - [data-table-v2-action [mixin]](#data-table-v2-action-mixin)
-  - [data-table-core [mixin]](#data-table-core-mixin)
-  - [data-table-expandable [mixin]](#data-table-expandable-mixin)
-  - [modal [mixin]](#modal-mixin)
-  - [pagination [mixin]](#pagination-mixin)
-  - [search [mixin]](#search-mixin)
-  - [select [mixin]](#select-mixin)
-  - [tabs [mixin]](#tabs-mixin)
-  - [treeview [mixin]](#treeview-mixin)
-  - [carbon-switcher [mixin]](#carbon-switcher-mixin)
 
 ### ✅spacing-06 [variable]
 
@@ -3823,10 +4712,6 @@ $spacing-06: $carbon--spacing-06;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-06`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [data-table-v2-action [mixin]](#data-table-v2-action-mixin)
-  - [data-table-core [mixin]](#data-table-core-mixin)
 
 ### ✅spacing-07 [variable]
 
@@ -3842,13 +4727,6 @@ $spacing-07: $carbon--spacing-07;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-07`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [modal [mixin]](#modal-mixin)
-  - [search [mixin]](#search-mixin)
-  - [select [mixin]](#select-mixin)
-  - [treeview [mixin]](#treeview-mixin)
-  - [carbon-switcher [mixin]](#carbon-switcher-mixin)
 
 ### ✅spacing-08 [variable]
 
@@ -3864,11 +4742,6 @@ $spacing-08: $carbon--spacing-08;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-08`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [dropdown [mixin]](#dropdown-mixin)
-  - [search [mixin]](#search-mixin)
-  - [treeview [mixin]](#treeview-mixin)
 
 ### ✅spacing-09 [variable]
 
@@ -3884,14 +4757,6 @@ $spacing-09: $carbon--spacing-09;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-09`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [data-table-v2-action [mixin]](#data-table-v2-action-mixin)
-  - [modal [mixin]](#modal-mixin)
-  - [search [mixin]](#search-mixin)
-  - [select [mixin]](#select-mixin)
-  - [tabs [mixin]](#tabs-mixin)
-  - [carbon-side-nav [mixin]](#carbon-side-nav-mixin)
 
 ### ✅spacing-10 [variable]
 
@@ -3907,8 +4772,6 @@ $spacing-10: $carbon--spacing-10;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-10`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅spacing-11 [variable]
 
@@ -3924,8 +4787,6 @@ $spacing-11: $carbon--spacing-11;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-11`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅spacing-12 [variable]
 
@@ -3941,8 +4802,34 @@ $spacing-12: $carbon--spacing-12;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-12`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
+
+### ✅map-deep-get [function]
+
+Map deep get
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function map-deep-get($map, $keys) {
+  @each $key in $keys {
+    $map: map-get($map, $key);
+  }
+  @return $map;
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name    | Description | Type      | Default value |
+| ------- | ----------- | --------- | ------------- |
+| `$map`  | Map         | `Map`     | —             |
+| `$keys` | Key chain   | `Arglist` | —             |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `*` Desired value
 
 ### ✅map-deep-get [function]
 
@@ -4001,6 +4888,34 @@ Provide a map and index, and get back the relevant key value
   - [carbon--largest-breakpoint-name [function]](#carbon--largest-breakpoint-name-function)
   - [last-map-item [function]](#last-map-item-function)
 
+### ✅key-by-index [function]
+
+Provide a map and index, and get back the relevant key value
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function key-by-index($map, $index) {
+  $keys: map-keys($map);
+  @return nth($keys, $index);
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name     | Description | Type      | Default value |
+| -------- | ----------- | --------- | ------------- |
+| `$map`   | Map         | `Map`     | —             |
+| `$index` | Key chain   | `Integer` | —             |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `String` Desired value
+- **Used by**:
+  - [largest-breakpoint-name [function]](#largest-breakpoint-name-function)
+
 ### ✅last-map-item [function]
 
 Pass in a map, and get the last one in the list back
@@ -4029,6 +4944,33 @@ Pass in a map, and get the last one in the list back
   - [carbon--key-by-index [function]](#carbon--key-by-index-function)
 - **Used by**:
   - [carbon--set-largest-breakpoint [mixin]](#carbon--set-largest-breakpoint-mixin)
+
+### ✅last-map-item [function]
+
+Pass in a map, and get the last one in the list back
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function last-map-item($map) {
+  $total-length: length($map);
+  @return map-get($map, carbon--key-by-index($map, $total-length));
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name   | Description | Type  | Default value |
+| ------ | ----------- | ----- | ------------- |
+| `$map` | Map         | `Map` | —             |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `*` Desired value
+- **Requires**:
+  - [carbon--key-by-index [function]](#carbon--key-by-index-function)
 
 ## @carbon/motion
 
@@ -6598,6 +7540,7 @@ $carbon--theme: (
 - **Type**: `Map`
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [carbon--default-type [mixin]](#carbon--default-type-mixin)
 
 ### ✅interactive-01 [variable]
 
@@ -7295,7 +8238,7 @@ $inverse-link: if(
 
 ### ✅field-01 [variable]
 
-Default input fields; Field color on \$ui-backgrounds
+Default input fields; Field color on $ui-backgrounds
 
 <details>
 <summary>Source code</summary>
@@ -7318,10 +8261,12 @@ $field-01: if(
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
   - [snippet [mixin]](#snippet-mixin)
+  - [bx--snippet [mixin]](#bx--snippet-mixin)
   - [date-picker [mixin]](#date-picker-mixin)
   - [dropdown [mixin]](#dropdown-mixin)
   - [file-uploader [mixin]](#file-uploader-mixin)
   - [listbox [mixin]](#listbox-mixin)
+  - [multiselect [mixin]](#multiselect-mixin)
   - [number-input [mixin]](#number-input-mixin)
   - [overflow-menu [mixin]](#overflow-menu-mixin)
   - [search [mixin]](#search-mixin)
@@ -7461,6 +8406,7 @@ $support-01: if(
 - **Type**: `{undefined}`
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [date-picker [mixin]](#date-picker-mixin)
   - [dropdown [mixin]](#dropdown-mixin)
   - [file-uploader [mixin]](#file-uploader-mixin)
   - [inline-loading [mixin]](#inline-loading-mixin)
@@ -7468,7 +8414,6 @@ $support-01: if(
   - [inline-notifications [mixin]](#inline-notifications-mixin)
   - [toast-notifications [mixin]](#toast-notifications-mixin)
   - [number-input [mixin]](#number-input-mixin)
-  - [overflow-menu [mixin]](#overflow-menu-mixin)
   - [progress-indicator [mixin]](#progress-indicator-mixin)
   - [select [mixin]](#select-mixin)
   - [text-area [mixin]](#text-area-mixin)
@@ -7527,6 +8472,7 @@ $support-03: if(
 - **Type**: `{undefined}`
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [date-picker [mixin]](#date-picker-mixin)
   - [listbox [mixin]](#listbox-mixin)
   - [inline-notifications [mixin]](#inline-notifications-mixin)
   - [toast-notifications [mixin]](#toast-notifications-mixin)
@@ -7720,6 +8666,7 @@ $danger-01: if(
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
   - [button [mixin]](#button-mixin)
+  - [overflow-menu [mixin]](#overflow-menu-mixin)
 
 ### ✅danger-02 [variable]
 
@@ -7887,6 +8834,7 @@ $hover-primary-text: if(
 - **Type**: `{undefined}`
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [breadcrumb [mixin]](#breadcrumb-mixin)
   - [button [mixin]](#button-mixin)
   - [link [mixin]](#link-mixin)
 
@@ -8031,6 +8979,7 @@ $hover-ui: if(
   - [dropdown [mixin]](#dropdown-mixin)
   - [listbox [mixin]](#listbox-mixin)
   - [modal [mixin]](#modal-mixin)
+  - [multiselect [mixin]](#multiselect-mixin)
   - [number-input [mixin]](#number-input-mixin)
   - [overflow-menu [mixin]](#overflow-menu-mixin)
   - [pagination [mixin]](#pagination-mixin)
@@ -8357,9 +9306,13 @@ $disabled-01: if(
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
   - [accordion [mixin]](#accordion-mixin)
+  - [snippet [mixin]](#snippet-mixin)
   - [content-switcher [mixin]](#content-switcher-mixin)
-  - [file-uploader [mixin]](#file-uploader-mixin)
+  - [date-picker [mixin]](#date-picker-mixin)
   - [listbox [mixin]](#listbox-mixin)
+  - [number-input [mixin]](#number-input-mixin)
+  - [search [mixin]](#search-mixin)
+  - [select [mixin]](#select-mixin)
   - [slider [mixin]](#slider-mixin)
   - [tags [mixin]](#tags-mixin)
   - [text-area [mixin]](#text-area-mixin)
@@ -8395,6 +9348,7 @@ $disabled-02: if(
   - [accordion [mixin]](#accordion-mixin)
   - [button-base [mixin]](#button-base-mixin)
   - [checkbox [mixin]](#checkbox-mixin)
+  - [snippet [mixin]](#snippet-mixin)
   - [content-switcher [mixin]](#content-switcher-mixin)
   - [date-picker [mixin]](#date-picker-mixin)
   - [dropdown [mixin]](#dropdown-mixin)
@@ -11164,7 +12118,13 @@ Include default type styles
   }
 
   a {
-    color: #0062ff;
+    @if global-variable-exists('carbon--theme') and
+      map-has-key($carbon--theme, 'link-01')
+    {
+      color: map-get($carbon--theme, 'link-01');
+    } @else {
+      color: #0062fe;
+    }
   }
 
   em {
@@ -11178,6 +12138,7 @@ Include default type styles
 - **Group**: [@carbon/type](#carbontype)
 - **Requires**:
   - [carbon--type-style [mixin]](#carbon--type-style-mixin)
+  - [carbon--theme [variable]](#carbon--theme-variable)
 
 ### ✅carbon--font-face-sans-condensed [mixin]
 
@@ -13972,6 +14933,7 @@ Accordion styles
 - **Group**: [accordion](#accordion)
 - **Requires**:
   - [carbon--breakpoint-up [mixin]](#carbon--breakpoint-up-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [ui-03 [variable]](#ui-03-variable)
   - [text-01 [variable]](#text-01-variable)
@@ -14018,6 +14980,10 @@ Breadcrumb styles
 
   .#{$prefix}--breadcrumb-item .#{$prefix}--link:visited {
     color: $link-01;
+
+    &:hover {
+      color: $hover-primary-text;
+    }
   }
 
   .#{$prefix}--breadcrumb-item::after {
@@ -14066,9 +15032,11 @@ Breadcrumb styles
 - **Group**: [breadcrumb](#breadcrumb)
 - **Requires**:
   - [carbon--breakpoint [mixin]](#carbon--breakpoint-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
   - [link-01 [variable]](#link-01-variable)
+  - [hover-primary-text [variable]](#hover-primary-text-variable)
   - [text-01 [variable]](#text-01-variable)
 
 ## button
@@ -14143,6 +15111,7 @@ Button styles
     }
 
     &:active {
+      color: $inverse-01;
       background-color: $active-tertiary;
       border-color: transparent;
     }
@@ -14225,11 +15194,6 @@ Button styles
     }
   }
 
-  .#{$prefix}--btn.#{$prefix}--btn--icon-only.#{$prefix}--btn--ghost:focus svg,
-  .#{$prefix}--btn.#{$prefix}--btn--icon-only.#{$prefix}--btn--ghost:hover svg {
-    fill: $icon-01;
-  }
-
   .#{$prefix}--btn.#{$prefix}--btn--icon-only.#{$prefix}--tooltip__trigger:focus {
     border-color: $focus;
 
@@ -14274,7 +15238,8 @@ Button styles
       position: static;
     }
 
-    &.#{$prefix}--btn--ghost .#{$prefix}--btn__icon {
+    &.#{$prefix}--btn--ghost .#{$prefix}--btn__icon,
+    &.#{$prefix}--btn--danger--ghost .#{$prefix}--btn__icon {
       margin: 0;
     }
   }
@@ -14287,8 +15252,6 @@ Button styles
     .#{$prefix}--btn__icon,
   .#{$prefix}--btn.#{$prefix}--btn--icon-only.#{$prefix}--btn--ghost:hover
     .#{$prefix}--btn__icon {
-    fill: $icon-01;
-
     // Windows, Firefox HCM Fix
     @media screen and (-ms-high-contrast: active),
       screen and (prefers-contrast) {
@@ -14301,7 +15264,7 @@ Button styles
 
   .#{$prefix}--btn--ghost.#{$prefix}--btn--icon-only
     .#{$prefix}--btn__icon
-    path,
+    path:not([data-icon-path]),
   .#{$prefix}--btn--ghost.#{$prefix}--btn--icon-only .#{$prefix}--btn__icon {
     fill: $icon-01;
   }
@@ -14378,6 +15341,17 @@ Button styles
       &:active {
         color: $text-04;
         border-color: $active-danger;
+      }
+
+      &:disabled,
+      &:hover:disabled,
+      &:focus:disabled,
+      &.#{$prefix}--btn--disabled,
+      &.#{$prefix}--btn--disabled:hover,
+      &.#{$prefix}--btn--disabled:focus {
+        color: $disabled-03;
+        background: transparent;
+        outline: none;
       }
     }
 
@@ -14515,6 +15489,7 @@ Button styles
 - **Requires**:
   - [button-base [mixin]](#button-base-mixin)
   - [button-theme [mixin]](#button-theme-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [interactive-01 [variable]](#interactive-01-variable)
   - [text-04 [variable]](#text-04-variable)
@@ -14533,8 +15508,8 @@ Button styles
   - [active-ui [variable]](#active-ui-variable)
   - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
   - [hover-primary-text [variable]](#hover-primary-text-variable)
-  - [icon-01 [variable]](#icon-01-variable)
   - [focus [variable]](#focus-variable)
+  - [icon-01 [variable]](#icon-01-variable)
   - [danger-01 [variable]](#danger-01-variable)
   - [hover-danger [variable]](#hover-danger-variable)
   - [active-danger [variable]](#active-danger-variable)
@@ -14601,6 +15576,7 @@ Button base styles
 
 - **Group**: [button](#button)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [disabled-03 [variable]](#disabled-03-variable)
   - [disabled-02 [variable]](#disabled-02-variable)
@@ -14644,7 +15620,7 @@ Button variant styles
   }
 
   .#{$prefix}--btn__icon,
-  .#{$prefix}--btn__icon path {
+  .#{$prefix}--btn__icon path:not([data-icon-path]) {
     fill: $icon-color;
   }
 }
@@ -14708,8 +15684,8 @@ Checkbox styles
     position: relative;
     display: flex;
     min-height: rem(24px);
+    padding-top: rem(3px);
     padding-left: rem(20px);
-    line-height: 1.5rem;
     cursor: pointer;
     user-select: none;
   }
@@ -14756,12 +15732,12 @@ Checkbox styles
     left: rem(6px);
     width: rem(9px);
     height: rem(5px);
-    margin-top: rem(-3px);
+    margin-top: rem(-3px) /* rtl: 0rem  */;
     background: none;
     border-bottom: 2px solid $inverse-01;
     border-left: 2px solid $inverse-01;
-    transform: scale(0) rotate(-45deg);
-    transform-origin: bottom right;
+    transform: scale(0) rotate(-45deg) /* rtl: scale(0) rotate(45deg) */;
+    transform-origin: bottom right /* rtl: center */;
     content: '';
   }
 
@@ -14782,7 +15758,7 @@ Checkbox styles
   // Display the check
   .#{$prefix}--checkbox:checked + .#{$prefix}--checkbox-label::after,
   .#{$prefix}--checkbox-label[data-contained-checkbox-state='true']::after {
-    transform: scale(1) rotate(-45deg);
+    transform: scale(1) rotate(-45deg) /* rtl: scale(-1,1) rotate(45deg) */;
   }
 
   // Indeterminate symbol
@@ -14808,16 +15784,8 @@ Checkbox styles
   // Indeterminate
   .#{$prefix}--checkbox:indeterminate:focus + .#{$prefix}--checkbox-label::before,
   .#{$prefix}--checkbox-label[data-contained-checkbox-state='mixed'].#{$prefix}--checkbox-label__focus::before {
-    // Must use box-shadow for appearance of multiple borders with rounded corners.
-    box-shadow: 0 0 0 2px $inverse-01, 0 0 0 4px $focus;
-
-    // Windows, Firefox HCM Fix
-    @media screen and (-ms-high-contrast: active),
-      screen and (prefers-contrast) {
-      // `highlightText` is a CSS2 system color to help improve colors in HCM
-      outline: 1px solid highlightText;
-      outline-offset: 2px;
-    }
+    outline: 2px solid $focus;
+    outline-offset: 1px;
   }
 
   //----------------------------------------------
@@ -14863,6 +15831,7 @@ Checkbox styles
 
 - **Group**: [checkbox](#checkbox)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-02 [variable]](#carbon--spacing-02-variable)
   - [carbon--spacing-01 [variable]](#carbon--spacing-01-variable)
@@ -14885,6 +15854,27 @@ Code snippet styles
 @mixin snippet() {
   .#{$prefix}--snippet {
     @include reset;
+  }
+
+  .#{$prefix}--snippet--disabled,
+  .#{$prefix}--snippet--disabled
+    .#{$prefix}--btn.#{$prefix}--snippet-btn--expand {
+    color: $disabled-02;
+    background-color: $disabled-01;
+  }
+
+  .#{$prefix}--snippet--disabled .#{$prefix}--snippet-btn--expand:hover,
+  .#{$prefix}--snippet--disabled .#{$prefix}--copy-btn:hover {
+    color: $disabled-02;
+    background-color: $disabled-01;
+    cursor: not-allowed;
+  }
+
+  .#{$prefix}--snippet--disabled .#{$prefix}--snippet__icon,
+  .#{$prefix}--snippet--disabled
+    .#{$prefix}--snippet-btn--expand
+    .#{$prefix}--icon-chevron--down {
+    fill: $disabled-02;
   }
 
   .#{$prefix}--snippet code {
@@ -14915,6 +15905,11 @@ Code snippet styles
     &:focus {
       border: 2px solid $focus;
       outline: none;
+
+      // Firefox HCM fix
+      @media screen and (prefers-contrast) {
+        border-style: dotted;
+      }
     }
 
     &::before {
@@ -14978,10 +15973,15 @@ Code snippet styles
 
     display: flex;
     align-items: center;
-    min-width: rem(320px);
     max-width: rem(760px);
     height: $carbon--spacing-08;
     padding-right: $carbon--spacing-08;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      outline: 2px solid transparent;
+    }
   }
 
   .#{$prefix}--snippet--single.#{$prefix}--snippet--no-copy {
@@ -15017,9 +16017,14 @@ Code snippet styles
     @include bx--snippet;
 
     display: flex;
-    min-width: rem(320px);
     max-width: 100%;
     padding: $carbon--spacing-05;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      outline: 2px solid transparent;
+    }
   }
 
   //closed snippet container
@@ -15086,6 +16091,13 @@ Code snippet styles
     height: rem(16px);
     transition: all $duration--fast-01 motion(standard, productive);
     fill: $icon-01;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      fill: ButtonText;
+    }
   }
 
   .#{$prefix}--snippet-button {
@@ -15154,20 +16166,19 @@ Code snippet styles
     position: absolute;
     top: 0;
     right: 0;
-    z-index: 10;
 
     // Override inherited rule in code snippet
     @include carbon--font-family('sans');
   }
 
   // Show more / less button
-  button.#{$prefix}--btn.#{$prefix}--snippet-btn--expand {
+  .#{$prefix}--snippet-btn--expand {
     @include type-style('body-short-01');
     @include carbon--font-family('sans');
 
     position: absolute;
     right: 0;
-    bottom: $spacing-03;
+    bottom: 0;
     z-index: 10;
     display: inline-flex;
     align-items: center;
@@ -15177,8 +16188,7 @@ Code snippet styles
     border: 0;
   }
 
-  button.#{$prefix}--btn.#{$prefix}--snippet-btn--expand
-    .#{$prefix}--snippet-btn--text {
+  .#{$prefix}--snippet-btn--expand .#{$prefix}--snippet-btn--text {
     position: relative;
     top: rem(-1px);
   }
@@ -15188,14 +16198,13 @@ Code snippet styles
   }
 
   .#{$prefix}--snippet-btn--expand .#{$prefix}--icon-chevron--down {
-    margin-bottom: rem(1px);
     margin-left: $spacing-03;
     transform: rotate(0deg);
     transition: $duration--moderate-01 motion(standard, productive);
     fill: $text-01;
   }
 
-  button.#{$prefix}--btn.#{$prefix}--snippet-btn--expand:hover {
+  .#{$prefix}--snippet-btn--expand:hover {
     color: $text-01;
     background: $hover-ui;
   }
@@ -15220,21 +16229,23 @@ Code snippet styles
   // Light version
   .#{$prefix}--snippet--light,
   .#{$prefix}--snippet--light .#{$prefix}--snippet-button,
-  .#{$prefix}--snippet--light .#{$prefix}--snippet-btn--expand,
+  .#{$prefix}--snippet--light .#{$prefix}--btn.#{$prefix}--snippet-btn--expand,
   .#{$prefix}--snippet--light .#{$prefix}--copy-btn {
     background-color: $field-02;
   }
 
   .#{$prefix}--snippet--light.#{$prefix}--snippet--inline:hover,
   .#{$prefix}--snippet--light .#{$prefix}--snippet-button:hover,
-  .#{$prefix}--snippet--light .#{$prefix}--snippet-btn--expand:hover,
+  .#{$prefix}--snippet--light
+    .#{$prefix}--btn.#{$prefix}--snippet-btn--expand:hover,
   .#{$prefix}--snippet--light .#{$prefix}--copy-btn:hover {
     background-color: $hover-light-ui;
   }
 
   .#{$prefix}--snippet--light.#{$prefix}--snippet--inline:active,
   .#{$prefix}--snippet--light .#{$prefix}--snippet-button:active,
-  .#{$prefix}--snippet--light .#{$prefix}--snippet-btn--expand:active,
+  .#{$prefix}--snippet--light
+    .#{$prefix}--btn.#{$prefix}--snippet-btn--expand:active,
   .#{$prefix}--snippet--light .#{$prefix}--copy-btn:active {
     background-color: $active-light-ui;
   }
@@ -15286,6 +16297,7 @@ Code snippet styles
   .#{$prefix}--snippet--multi .#{$prefix}--copy-btn {
     top: $carbon--spacing-03;
     right: $carbon--spacing-03;
+    z-index: 10;
     width: $carbon--spacing-07;
     height: $carbon--spacing-07;
   }
@@ -15421,7 +16433,10 @@ Code snippet styles
 - **Requires**:
   - [bx--snippet [mixin]](#bx--snippet-mixin)
   - [carbon--font-family [mixin]](#carbon--font-family-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
+  - [disabled-02 [variable]](#disabled-02-variable)
+  - [disabled-01 [variable]](#disabled-01-variable)
   - [text-01 [variable]](#text-01-variable)
   - [field-01 [variable]](#field-01-variable)
   - [ui-03 [variable]](#ui-03-variable)
@@ -15453,13 +16468,16 @@ Code snippet base styles
   position: relative;
   width: 100%;
   max-width: rem(600px);
-  background-color: $snippet-background-color;
+  background-color: $field-01;
 }
 ```
 
 </details>
 
 - **Group**: [code-snippet](#code-snippet)
+- **Requires**:
+  - [rem [function]](#rem-function)
+  - [field-01 [variable]](#field-01-variable)
 - **Used by**:
   - [snippet [mixin]](#snippet-mixin)
 
@@ -15692,6 +16710,7 @@ Content switcher styles
 
 - **Group**: [content-switcher](#content-switcher)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
   - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
@@ -16326,6 +17345,7 @@ Data table action styles
 
 - **Group**: [data-table](#data-table)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [layout-04 [variable]](#layout-04-variable)
   - [ui-01 [variable]](#ui-01-variable)
@@ -16436,12 +17456,9 @@ Data table core styles
     vertical-align: middle;
   }
 
-  .#{$prefix}--data-table td {
+  .#{$prefix}--data-table th {
     padding-right: $spacing-05;
     padding-left: $spacing-05;
-  }
-
-  .#{$prefix}--data-table th {
     color: $text-01;
     background-color: $ui-03;
   }
@@ -16453,8 +17470,6 @@ Data table core styles
   }
 
   .#{$prefix}--data-table .#{$prefix}--table-header-label {
-    padding-right: $spacing-05;
-    padding-left: $spacing-05;
     text-align: left;
   }
 
@@ -16621,22 +17636,40 @@ Data table core styles
   .#{$prefix}--data-table thead th.#{$prefix}--table-expand,
   .#{$prefix}--data-table tbody td.#{$prefix}--table-expand {
     min-width: 0;
-    // spacing between checkbox / chevron and next cell should be 16px / 1rem
-    // adjacent cell has 16px / 1rem padding-left though, hence the removal of padding-right here
-    padding-right: 0;
-    padding-left: $spacing-05;
   }
 
   .#{$prefix}--data-table thead th.#{$prefix}--table-column-checkbox,
   .#{$prefix}--data-table tbody td.#{$prefix}--table-column-checkbox {
     // 16px padding left + 20px checkbox width
-    width: rem(36px);
+    width: rem(16px);
+    // spacing between checkbox / chevron and next cell should be 16px / 1rem
+    // adjacent cell has 16px / 1rem padding-left though, hence the removal of padding-right here
+    padding-right: $spacing-05;
+    padding-left: $spacing-05;
   }
 
   .#{$prefix}--data-table thead th.#{$prefix}--table-expand,
   .#{$prefix}--data-table tbody td.#{$prefix}--table-expand {
-    // 16px padding left + 16px checkbox width
+    width: rem(48px);
+    height: rem(48px);
+  }
+
+  .#{$prefix}--data-table--compact thead th.#{$prefix}--table-expand,
+  .#{$prefix}--data-table--compact tbody td.#{$prefix}--table-expand {
+    width: rem(24px);
+    height: rem(24px);
+  }
+
+  .#{$prefix}--data-table--short thead th.#{$prefix}--table-expand,
+  .#{$prefix}--data-table--short tbody td.#{$prefix}--table-expand {
     width: rem(32px);
+    height: rem(32px);
+  }
+
+  .#{$prefix}--data-table--tall thead th.#{$prefix}--table-expand,
+  .#{$prefix}--data-table--tall tbody td.#{$prefix}--table-expand {
+    width: rem(64px);
+    height: rem(64px);
   }
 
   .#{$prefix}--data-table--tall .#{$prefix}--table-column-checkbox {
@@ -17074,6 +18107,7 @@ Data table core styles
 - **Group**: [data-table](#data-table)
 - **Requires**:
   - [text-overflow [mixin]](#text-overflow-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [spacing-01 [variable]](#spacing-01-variable)
   - [spacing-05 [variable]](#spacing-05-variable)
@@ -17247,20 +18281,26 @@ Data table expandable styles
   // Expand icon column
   //----------------------------------------------------------------------------
   .#{$prefix}--data-table td.#{$prefix}--table-expand {
-    width: 2.5rem;
-    min-width: 2.5rem;
     border-bottom: 1px solid $ui-03;
   }
 
-  .#{$prefix}--data-table td.#{$prefix}--table-expand,
-  th.#{$prefix}--table-expand {
-    padding: 0 $spacing-05;
+  .#{$prefix}--data-table th.#{$prefix}--table-expand + th,
+  .#{$prefix}--data-table td.#{$prefix}--table-expand + td {
+    padding-left: 0;
   }
 
-  .#{$prefix}--data-table--tall td.#{$prefix}--table-expand,
-  .#{$prefix}--data-table--tall th.#{$prefix}--table-expand {
-    padding-top: rem(16px);
-    padding-bottom: rem(16px);
+  .#{$prefix}--data-table
+    th.#{$prefix}--table-expand
+    + .#{$prefix}--table-column-checkbox,
+  .#{$prefix}--data-table
+    td.#{$prefix}--table-expand
+    + .#{$prefix}--table-column-checkbox {
+    padding-right: 0;
+  }
+
+  .#{$prefix}--data-table td.#{$prefix}--table-expand,
+  .#{$prefix}--data-table th.#{$prefix}--table-expand {
+    padding: 0;
   }
 
   .#{$prefix}--data-table
@@ -17277,16 +18317,26 @@ Data table expandable styles
   .#{$prefix}--table-expand__button {
     @include button-reset('false');
 
-    height: rem(16px);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    // Account for the border in `.bx--table-expand`
+    height: calc(100% + 1px);
     vertical-align: inherit;
   }
 
   .#{$prefix}--table-expand__button:focus {
     outline: none;
+    box-shadow: inset 0 0 0 2px $focus;
   }
 
   .#{$prefix}--table-expand__button:focus .#{$prefix}--table-expand__svg {
-    box-shadow: inset 0 0 0 2px $focus;
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      outline: 2px solid transparent;
+    }
   }
 
   .#{$prefix}--table-expand__svg {
@@ -17300,6 +18350,11 @@ Data table expandable styles
       // `ButtonText` is a CSS2 system color to help improve colors in HCM
       fill: ButtonText;
     }
+  }
+
+  .#{$prefix}--data-table--tall .#{$prefix}--table-expand__button {
+    padding-top: rem(16px);
+    padding-bottom: rem(24px);
   }
 
   // fix expanded parent separating border length
@@ -17467,6 +18522,7 @@ Data table expandable styles
 
 - **Group**: [data-table](#data-table)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [ui-03 [variable]](#ui-03-variable)
   - [spacing-05 [variable]](#spacing-05-variable)
@@ -17697,6 +18753,7 @@ Data table sort styles
 
 - **Group**: [data-table](#data-table)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [layout-04 [variable]](#layout-04-variable)
   - [text-01 [variable]](#text-01-variable)
@@ -17741,9 +18798,19 @@ Date picker styles
     align-items: center;
   }
 
-  .#{$prefix}--date-picker.#{$prefix}--date-picker--simple {
-    .#{$prefix}--date-picker__input {
-      width: rem(120px);
+  .#{$prefix}--date-picker.#{$prefix}--date-picker--simple
+    .#{$prefix}--date-picker__input,
+  .#{$prefix}--date-picker.#{$prefix}--date-picker--simple .#{$prefix}--label {
+    width: rem(120px);
+  }
+
+  .#{$prefix}--date-picker.#{$prefix}--date-picker--simple
+    .#{$prefix}--date-picker-input__wrapper--invalid,
+  .#{$prefix}--date-picker.#{$prefix}--date-picker--simple
+    .#{$prefix}--date-picker-input__wrapper--warn {
+    .#{$prefix}--date-picker__input,
+    ~ .#{$prefix}--form-requirement {
+      width: rem(152px);
     }
   }
 
@@ -17765,7 +18832,6 @@ Date picker styles
 
     position: relative;
     display: block;
-    min-width: rem(144px);
     height: rem(40px);
     padding: 0 $carbon--spacing-05;
     color: $text-01;
@@ -17781,7 +18847,7 @@ Date picker styles
 
     &:disabled {
       color: $disabled-02;
-      background-color: $disabled-background-color;
+      background-color: $disabled-01;
       border-bottom: 1px solid transparent;
       cursor: not-allowed;
     }
@@ -17817,6 +18883,31 @@ Date picker styles
     transform: translateY(-50%);
     cursor: pointer;
     fill: $icon-01;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      fill: ButtonText;
+    }
+  }
+
+  .#{$prefix}--date-picker__icon--invalid,
+  .#{$prefix}--date-picker__icon--warn {
+    cursor: auto;
+  }
+
+  .#{$prefix}--date-picker__icon--warn {
+    fill: $support-03;
+  }
+
+  .#{$prefix}--date-picker__icon--warn path:first-of-type {
+    opacity: 1;
+    fill: $carbon__black-100;
+  }
+
+  .#{$prefix}--date-picker__icon--invalid {
+    fill: $support-01;
   }
 
   .#{$prefix}--date-picker__icon ~ .#{$prefix}--date-picker__input {
@@ -17863,6 +18954,7 @@ Date picker styles
 
 - **Group**: [date-picker](#date-picker)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [field-02 [variable]](#field-02-variable)
   - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
@@ -17870,7 +18962,10 @@ Date picker styles
   - [field-01 [variable]](#field-01-variable)
   - [ui-04 [variable]](#ui-04-variable)
   - [disabled-02 [variable]](#disabled-02-variable)
+  - [disabled-01 [variable]](#disabled-01-variable)
   - [icon-01 [variable]](#icon-01-variable)
+  - [support-03 [variable]](#support-03-variable)
+  - [support-01 [variable]](#support-01-variable)
   - [carbon--spacing-09 [variable]](#carbon--spacing-09-variable)
 
 ## dropdown
@@ -18345,6 +19440,7 @@ Dropdown styles
 
 - **Group**: [dropdown](#dropdown)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [text-01 [variable]](#text-01-variable)
   - [field-01 [variable]](#field-01-variable)
@@ -18392,6 +19488,10 @@ File uploader styles
 
     margin-bottom: $carbon--spacing-03;
     color: $text-01;
+  }
+
+  .#{$prefix}--file--label--disabled {
+    color: $disabled-02;
   }
 
   .#{$prefix}--file-input {
@@ -18449,7 +19549,7 @@ File uploader styles
   }
 
   .#{$prefix}--file-browse-btn--disabled .#{$prefix}--file__drop-container {
-    border: 1px dashed $disabled-01;
+    border: 1px dashed $disabled-02;
   }
 
   .#{$prefix}--label-description {
@@ -18458,6 +19558,10 @@ File uploader styles
 
     margin-bottom: $carbon--spacing-05;
     color: $text-02;
+  }
+
+  .#{$prefix}--label-description--disabled {
+    color: $disabled-02;
   }
 
   // For backwards compatibility
@@ -18477,8 +19581,8 @@ File uploader styles
   .#{$prefix}--file__selected-file {
     display: grid;
     grid-auto-rows: auto;
-    grid-gap: $carbon--spacing-05;
     grid-template-columns: 1fr auto;
+    gap: rem(12px) $carbon--spacing-05;
     align-items: center;
     max-width: rem(320px);
     min-height: $carbon--spacing-09;
@@ -18497,12 +19601,6 @@ File uploader styles
       margin: 0;
     }
 
-    .#{$prefix}--loading {
-      width: rem(32px);
-      height: rem(32px);
-      margin-right: -$carbon--spacing-03;
-    }
-
     .#{$prefix}--inline-loading__animation .#{$prefix}--loading {
       // Vanilla markup has `.bx--inline-loading__animation` which is used for `margin-right` adjustment
       margin-right: 0;
@@ -18516,13 +19614,21 @@ File uploader styles
       white-space: nowrap;
       text-overflow: ellipsis;
     }
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      outline: 2px solid transparent;
+    }
   }
 
   .#{$prefix}--file__selected-file--field {
+    gap: $carbon--spacing-03 $carbon--spacing-05;
     min-height: rem(40px);
   }
 
   .#{$prefix}--file__selected-file--sm {
+    gap: $carbon--spacing-02 $carbon--spacing-05;
     min-height: rem(32px);
   }
 
@@ -18533,19 +19639,36 @@ File uploader styles
     max-width: rem(320px);
     margin-bottom: $carbon--spacing-03;
     background-color: $field-01;
-
     outline-width: 1px;
   }
 
   .#{$prefix}--file__selected-file--invalid {
     @include focus-outline('invalid');
 
-    padding: $carbon--spacing-05 0;
+    padding: rem(12px) 0;
+  }
+
+  .#{$prefix}--file__selected-file--invalid.#{$prefix}--file__selected-file--sm {
+    padding: $carbon--spacing-02 0;
+  }
+
+  .#{$prefix}--file__selected-file--invalid.#{$prefix}--file__selected-file--field {
+    padding: $carbon--spacing-03 0;
   }
 
   .#{$prefix}--file__selected-file--invalid .#{$prefix}--form-requirement {
     padding-top: $carbon--spacing-05;
     border-top: 1px solid $ui-03;
+  }
+
+  .#{$prefix}--file__selected-file--invalid.#{$prefix}--file__selected-file--sm
+    .#{$prefix}--form-requirement {
+    padding-top: rem(7px);
+  }
+
+  .#{$prefix}--file__selected-file--invalid.#{$prefix}--file__selected-file--field
+    .#{$prefix}--form-requirement {
+    padding-top: rem(11px);
   }
 
   .#{$prefix}--file__selected-file--invalid
@@ -18588,6 +19711,7 @@ File uploader styles
 
   .#{$prefix}--file__state-container {
     display: flex;
+    align-items: center;
     justify-content: center;
     min-width: 1.5rem;
     padding-right: $carbon--spacing-05;
@@ -18615,14 +19739,15 @@ File uploader styles
   .#{$prefix}--file__state-container .#{$prefix}--file-invalid {
     width: $carbon--spacing-05;
     height: $carbon--spacing-05;
-    margin-right: $carbon--spacing-03;
     fill: $support-01;
   }
 
   .#{$prefix}--file__state-container .#{$prefix}--file-close {
     display: flex;
-    width: $carbon--spacing-05;
-    height: $carbon--spacing-05;
+    align-items: center;
+    justify-content: center;
+    width: $carbon--spacing-06;
+    height: $carbon--spacing-06;
     padding: 0;
     background-color: transparent;
     border: none;
@@ -18630,12 +19755,19 @@ File uploader styles
     fill: $icon-01;
 
     &:focus {
-      @include focus-outline('border');
+      @include focus-outline('outline');
     }
   }
 
   .#{$prefix}--file__state-container .#{$prefix}--file-close svg path {
     fill: $icon-01;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      fill: ButtonText;
+    }
   }
 
   .#{$prefix}--file__state-container .#{$prefix}--inline-loading__animation {
@@ -18664,19 +19796,20 @@ File uploader styles
 
 - **Group**: [file-uploader](#file-uploader)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
   - [support-01 [variable]](#support-01-variable)
   - [text-01 [variable]](#text-01-variable)
+  - [disabled-02 [variable]](#disabled-02-variable)
   - [link-01 [variable]](#link-01-variable)
   - [interactive-03 [variable]](#interactive-03-variable)
-  - [disabled-02 [variable]](#disabled-02-variable)
-  - [disabled-01 [variable]](#disabled-01-variable)
   - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
   - [text-02 [variable]](#text-02-variable)
   - [carbon--spacing-06 [variable]](#carbon--spacing-06-variable)
   - [carbon--spacing-09 [variable]](#carbon--spacing-09-variable)
   - [field-01 [variable]](#field-01-variable)
+  - [carbon--spacing-02 [variable]](#carbon--spacing-02-variable)
   - [ui-03 [variable]](#ui-03-variable)
   - [text-error [variable]](#text-error-variable)
   - [ui-05 [variable]](#ui-05-variable)
@@ -18761,6 +19894,8 @@ Form styles
   .#{$prefix}--number[data-invalid] .#{$prefix}--number__input-wrapper,
   .#{$prefix}--number__input-wrapper--warning,
   .#{$prefix}--date-picker-input__wrapper,
+  .#{$prefix}--date-picker-input__wrapper--warn,
+  .#{$prefix}--date-picker-input__wrapper--invalid,
   .#{$prefix}--time-picker--invalid,
   .#{$prefix}--text-input__field-wrapper[data-invalid],
   .#{$prefix}--text-input__field-wrapper--warning,
@@ -18781,6 +19916,7 @@ Form styles
   input[data-invalid],
   .#{$prefix}--number[data-invalid] .#{$prefix}--number__input-wrapper,
   .#{$prefix}--date-picker-input__wrapper,
+  .#{$prefix}--date-picker-input__wrapper--invalid,
   .#{$prefix}--time-picker--invalid,
   .#{$prefix}--text-input__field-wrapper[data-invalid],
   .#{$prefix}--text-area__wrapper[data-invalid],
@@ -18853,6 +19989,7 @@ Form styles
 
 - **Group**: [form](#form)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [carbon--font-family [function]](#carbon--font-family-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-07 [variable]](#carbon--spacing-07-variable)
@@ -18965,6 +20102,7 @@ Inline loading styles
 
 - **Group**: [inline-loading](#inline-loading)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [loading--small\_\_gap [variable]](#loading--small__gap-variable)
   - [text-02 [variable]](#text-02-variable)
@@ -19040,10 +20178,6 @@ Link styles
   .#{$prefix}--link.#{$prefix}--link--inline {
     text-decoration: underline;
 
-    &:hover {
-      color: $hover-primary-text;
-    }
-
     &:focus,
     &:visited {
       text-decoration: none;
@@ -19105,7 +20239,11 @@ List styles
   }
 
   .#{$prefix}--list--nested {
-    margin-left: $carbon--spacing-06;
+    margin-left: rem(32px);
+  }
+
+  .#{$prefix}--list--nested .#{$prefix}--list__item {
+    padding-left: $carbon--spacing-02;
   }
 
   .#{$prefix}--list--ordered:not(.#{$prefix}--list--nested) {
@@ -19155,9 +20293,10 @@ List styles
 
 - **Group**: [list](#list)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [text-01 [variable]](#text-01-variable)
-  - [carbon--spacing-06 [variable]](#carbon--spacing-06-variable)
+  - [carbon--spacing-02 [variable]](#carbon--spacing-02-variable)
   - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
   - [carbon--spacing-04 [variable]](#carbon--spacing-04-variable)
 
@@ -19498,10 +20637,9 @@ List box styles
   .#{$prefix}--list-box__field:focus {
     @include focus-outline('outline');
 
-    @media screen and (-ms-high-contrast: active),
-      screen and (prefers-contrast) {
-      // `ButtonText` is a CSS2 system color to help improve colors in HCM
-      border: 2px solid ButtonText;
+    // Firefox HCM fix
+    @media screen and (prefers-contrast) {
+      border-style: dotted;
     }
   }
 
@@ -20013,6 +21151,7 @@ List box styles
 - **Group**: [list-box](#list-box)
 - **Requires**:
   - [tag-theme [mixin]](#tag-theme-mixin)
+  - [rem [function]](#rem-function)
   - [carbon--mini-units [function]](#carbon--mini-units-function)
   - [prefix [variable]](#prefix-variable)
   - [list-box-width [variable]](#list-box-width-variable)
@@ -20068,7 +21207,7 @@ Loading styles
   }
 
   .#{$prefix}--loading__svg circle {
-    stroke-width: 8;
+    stroke-width: 10;
     stroke-linecap: butt;
     stroke-dasharray: 240;
   }
@@ -20087,10 +21226,11 @@ Loading styles
   }
 
   .#{$prefix}--loading--small {
-    width: 2rem;
-    height: 2rem;
+    width: rem(16px);
+    height: rem(16px);
+
     circle {
-      stroke-width: 12;
+      stroke-width: 16;
     }
   }
 
@@ -20100,7 +21240,7 @@ Loading styles
 
   .#{$prefix}--loading__background {
     stroke: $ui-03;
-    stroke-dashoffset: 0;
+    stroke-dashoffset: -22;
   }
 
   .#{$prefix}--loading-overlay {
@@ -20129,6 +21269,7 @@ Loading styles
 - **Requires**:
   - [animation\_\_loading--spin [mixin]](#animation__loading--spin-mixin)
   - [animation\_\_loading--stop [mixin]](#animation__loading--stop-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [loading\_\_size [variable]](#loading__size-variable)
   - [interactive-04 [variable]](#interactive-04-variable)
@@ -20200,7 +21341,7 @@ Loading styles
 <summary>Source code</summary>
 
 ```scss
-$loading__gap: 40;
+$loading__gap: 16;
 ```
 
 </details>
@@ -20216,7 +21357,7 @@ $loading__gap: 40;
 <summary>Source code</summary>
 
 ```scss
-$loading--small__gap: 99;
+$loading--small__gap: 110;
 ```
 
 </details>
@@ -20233,7 +21374,7 @@ $loading--small__gap: 99;
 <summary>Source code</summary>
 
 ```scss
-$loading__size: 10.5rem;
+$loading__size: 5.5rem;
 ```
 
 </details>
@@ -20494,10 +21635,6 @@ Modal styles
     &:focus {
       @include focus-outline('outline');
     }
-
-    > * {
-      @include type-style('body-long-01');
-    }
   }
 
   // Required so overflow-indicator disappears at end of content
@@ -20554,6 +21691,14 @@ Modal styles
     }
   }
 
+  .#{$prefix}--modal-footer button.#{$prefix}--btn:focus {
+    // Firefox HCM Fix
+    @media screen and (prefers-contrast) {
+      border: none;
+      outline-style: dotted;
+    }
+  }
+
   .#{$prefix}--modal-close {
     position: absolute;
     top: 0;
@@ -20574,6 +21719,11 @@ Modal styles
     &:focus {
       border-color: $focus;
       outline: none;
+
+      // Firefox HCM Fix
+      @media screen and (prefers-contrast) {
+        border-style: dotted;
+      }
     }
   }
 
@@ -20609,6 +21759,7 @@ Modal styles
 - **Group**: [modal](#modal)
 - **Requires**:
   - [carbon--breakpoint [mixin]](#carbon--breakpoint-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [overlay-01 [variable]](#overlay-01-variable)
   - [field-02 [variable]](#field-02-variable)
@@ -20674,11 +21825,22 @@ Multi select styles
     color: $text-01;
   }
 
+  .#{$prefix}--multi-select--filterable .#{$prefix}--text-input {
+    padding-left: $spacing-03;
+  }
+
+  .#{$prefix}--multi-select--filterable:hover .#{$prefix}--text-input {
+    background-color: $hover-ui;
+  }
+
+  .#{$prefix}--multi-select--filterable.#{$prefix}--list-box--disabled:hover
+    .#{$prefix}--text-input {
+    background-color: $field-01;
+  }
+
   .#{$prefix}--multi-select--filterable {
     .#{$prefix}--list-box__selection--multi {
-      position: absolute;
-      right: auto;
-      left: $carbon--spacing-03;
+      margin: 0 0 0 $spacing-05;
     }
   }
 
@@ -20688,15 +21850,6 @@ Multi select styles
     background-color: transparent;
     border-bottom: 0;
   }
-
-  .#{$prefix}--multi-select--selected .#{$prefix}--text-input {
-    // this value will need to change based on the number of digits in
-    // the number of items selected
-    //
-    // i.e. the input field needs adjusted padding to account for the width of
-    // the number in <ListBox.Selection>
-    padding-left: carbon--mini-units(7);
-  }
 }
 ```
 
@@ -20704,10 +21857,13 @@ Multi select styles
 
 - **Group**: [multi-select](#multi-select)
 - **Requires**:
-  - [carbon--mini-units [function]](#carbon--mini-units-function)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [text-01 [variable]](#text-01-variable)
-  - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
+  - [spacing-03 [variable]](#spacing-03-variable)
+  - [hover-ui [variable]](#hover-ui-variable)
+  - [field-01 [variable]](#field-01-variable)
+  - [spacing-05 [variable]](#spacing-05-variable)
 
 ## notification
 
@@ -20746,6 +21902,12 @@ Inline notification styles
 
     @include carbon--breakpoint(max) {
       max-width: rem(832px);
+    }
+
+    // Firefox HCM fix
+    @media screen and (prefers-contrast) {
+      outline-width: 1px;
+      outline-style: solid;
     }
   }
 
@@ -20928,6 +22090,12 @@ Inline notification styles
     outline: 2px solid $inverse-focus-ui;
     outline-offset: -2px;
     box-shadow: none;
+
+    // Firefox HCM Fix
+    @media screen and (prefers-contrast) {
+      border-style: dotted;
+      outline-style: dotted;
+    }
   }
 
   .#{$prefix}--inline-notification--low-contrast
@@ -20964,6 +22132,11 @@ Inline notification styles
     &:focus {
       outline: 2px solid $inverse-focus-ui;
       outline-offset: -2px;
+
+      // Firefox HCM fix
+      @media screen and (prefers-contrast) {
+        outline-style: dotted;
+      }
     }
 
     .#{$prefix}--inline-notification__close-icon {
@@ -21008,6 +22181,7 @@ Inline notification styles
 - **Requires**:
   - [carbon--breakpoint [mixin]](#carbon--breakpoint-mixin)
   - [notification--experimental [mixin]](#notification--experimental-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
   - [inverse-01 [variable]](#inverse-01-variable)
@@ -21122,6 +22296,12 @@ Toast notification styles
 
     @include carbon--breakpoint(max) {
       width: rem(352px);
+    }
+
+    // Firefox HCM fix
+    @media screen and (prefers-contrast) {
+      outline-width: 1px;
+      outline-style: solid;
     }
   }
 
@@ -21238,6 +22418,11 @@ Toast notification styles
     &:focus {
       outline: 2px solid $inverse-focus-ui;
       outline-offset: -2px;
+
+      // Firefox HCM fix
+      @media screen and (prefers-contrast) {
+        outline-style: dotted;
+      }
     }
 
     .#{$prefix}--toast-notification__close-icon {
@@ -21300,6 +22485,7 @@ Toast notification styles
 - **Requires**:
   - [carbon--breakpoint [mixin]](#carbon--breakpoint-mixin)
   - [notification--experimental [mixin]](#notification--experimental-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
   - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
@@ -21388,7 +22574,7 @@ Number input styles
   .#{$prefix}--number input[type='number']:disabled,
   .#{$prefix}--number--readonly input[type='number'] {
     color: $disabled;
-    background-color: $disabled-background-color;
+    background-color: $disabled-01;
     border-bottom-color: transparent;
     cursor: not-allowed;
   }
@@ -21476,7 +22662,7 @@ Number input styles
     fill: $support-03;
   }
 
-  .#{$prefix}--number__invalid--warning path[data-icon-path='inner-path'] {
+  .#{$prefix}--number__invalid--warning path:first-of-type {
     opacity: 1;
     fill: $carbon__black-100;
   }
@@ -21612,6 +22798,7 @@ Number input styles
 
 - **Group**: [number-input](#number-input)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [carbon--font-family [function]](#carbon--font-family-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-07 [variable]](#carbon--spacing-07-variable)
@@ -21619,6 +22806,7 @@ Number input styles
   - [text-01 [variable]](#text-01-variable)
   - [field-01 [variable]](#field-01-variable)
   - [ui-04 [variable]](#ui-04-variable)
+  - [disabled-01 [variable]](#disabled-01-variable)
   - [icon-01 [variable]](#icon-01-variable)
   - [support-01 [variable]](#support-01-variable)
   - [support-03 [variable]](#support-03-variable)
@@ -21657,13 +22845,6 @@ Overflow menu styles
 
     &:focus {
       @include focus-outline('outline');
-
-      // Windows, Firefox HCM Fix
-      @media screen and (-ms-high-contrast: active),
-        screen and (prefers-contrast) {
-        outline: 3px solid transparent;
-        outline-offset: -3px;
-      }
     }
 
     &:hover {
@@ -21891,13 +23072,6 @@ Overflow menu styles
 
     &:focus {
       @include focus-outline('outline');
-
-      // Windows, Firefox HCM Fix
-      @media screen and (-ms-high-contrast: active),
-        screen and (prefers-contrast) {
-        outline: 3px solid transparent;
-        outline-offset: -3px;
-      }
     }
 
     &::-moz-focus-inner {
@@ -21937,10 +23111,10 @@ Overflow menu styles
   .#{$prefix}--overflow-menu-options__option--danger
     .#{$prefix}--overflow-menu-options__btn:focus {
     color: $text-04;
-    background-color: $support-01;
+    background-color: $danger-01;
 
     svg {
-      fill: $text-04;
+      fill: currentColor;
     }
   }
 
@@ -21983,6 +23157,7 @@ Overflow menu styles
 
 - **Group**: [overflow-menu](#overflow-menu)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [hover-ui [variable]](#hover-ui-variable)
   - [field-01 [variable]](#field-01-variable)
@@ -21995,7 +23170,7 @@ Overflow menu styles
   - [text-01 [variable]](#text-01-variable)
   - [icon-02 [variable]](#icon-02-variable)
   - [text-04 [variable]](#text-04-variable)
-  - [support-01 [variable]](#support-01-variable)
+  - [danger-01 [variable]](#danger-01-variable)
   - [ui-01 [variable]](#ui-01-variable)
   - [disabled-02 [variable]](#disabled-02-variable)
 
@@ -22030,6 +23205,10 @@ Pagination styles
 
     @include carbon--breakpoint('md') {
       overflow: initial;
+
+      .#{$prefix}--pagination__control-buttons {
+        display: flex;
+      }
     }
 
     // mobile friendly pagination
@@ -22039,9 +23218,12 @@ Pagination styles
         display: none;
       }
 
-      .#{$prefix}--pagination__items-count,
-      .#{$prefix}--pagination__control-buttons {
+      .#{$prefix}--pagination__items-count {
         display: initial;
+      }
+
+      .#{$prefix}--pagination__control-buttons {
+        display: flex;
       }
     }
   }
@@ -22113,7 +23295,11 @@ Pagination styles
   }
 
   .#{$prefix}--pagination__left {
-    padding: 0 $carbon--spacing-05;
+    padding: 0 $carbon--spacing-05 0 0;
+
+    @include carbon--breakpoint('md') {
+      padding: 0 $carbon--spacing-05;
+    }
   }
 
   .#{$prefix}--pagination__text {
@@ -22196,6 +23382,7 @@ Pagination styles
 - **Requires**:
   - [carbon--breakpoint [mixin]](#carbon--breakpoint-mixin)
   - [carbon--breakpoint-down [mixin]](#carbon--breakpoint-down-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [ui-01 [variable]](#ui-01-variable)
   - [ui-03 [variable]](#ui-03-variable)
@@ -22381,6 +23568,7 @@ Unstable pagination styles
 - **Requires**:
   - [carbon--type-style [mixin]](#carbon--type-style-mixin)
   - [carbon--breakpoint [mixin]](#carbon--breakpoint-mixin)
+  - [rem [function]](#rem-function)
   - [carbon--mini-units [function]](#carbon--mini-units-function)
   - [prefix [variable]](#prefix-variable)
   - [ui-01 [variable]](#ui-01-variable)
@@ -22921,6 +24109,7 @@ Progress indicator styles
 
 - **Group**: [progress-indicator](#progress-indicator)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
   - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
@@ -23119,6 +24308,7 @@ Radio button styles
 
 - **Group**: [radio-button](#radio-button)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [carbon--mini-units [function]](#carbon--mini-units-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
@@ -23180,7 +24370,7 @@ Search styles
 
   .#{$prefix}--search-input[disabled] {
     color: $disabled;
-    background-color: $disabled-background-color;
+    background-color: $disabled-01;
     border-bottom: 1px solid transparent;
     cursor: not-allowed;
 
@@ -23400,11 +24590,13 @@ Search styles
 
 - **Group**: [search](#search)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-08 [variable]](#carbon--spacing-08-variable)
   - [text-01 [variable]](#text-01-variable)
   - [field-01 [variable]](#field-01-variable)
   - [ui-04 [variable]](#ui-04-variable)
+  - [disabled-01 [variable]](#disabled-01-variable)
   - [field-02 [variable]](#field-02-variable)
   - [spacing-07 [variable]](#spacing-07-variable)
   - [spacing-08 [variable]](#spacing-08-variable)
@@ -23435,12 +24627,14 @@ Select styles
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 100%;
   }
 
   .#{$prefix}--select-input__wrapper {
     position: relative;
     display: flex;
     align-items: center;
+    width: 100%;
   }
 
   .#{$prefix}--select-input {
@@ -23448,10 +24642,7 @@ Select styles
     @include focus-outline('reset');
 
     display: block;
-    width: rem(224px);
-    min-width: rem(128px);
-    max-width: rem(448px);
-
+    width: 100%;
     height: rem(40px);
     padding: 0 $spacing-09 0 $spacing-05;
     color: $text-01;
@@ -23460,6 +24651,8 @@ Select styles
     border-bottom: 1px solid $ui-04;
     border-radius: 0;
     cursor: pointer;
+    // reset disabled <select> opacity
+    opacity: 1;
 
     // Do not transition on background-color (see: https://github.com/carbon-design-system/carbon/issues/4464)
     transition: outline $duration--fast-01 motion(standard, productive);
@@ -23489,20 +24682,13 @@ Select styles
       @include focus-outline('outline');
 
       color: $text-01;
-
-      // Windows, Firefox HCM Fix
-      @media screen and (-ms-high-contrast: active),
-        screen and (prefers-contrast) {
-        outline: 3px solid transparent;
-        outline-offset: -3px;
-      }
     }
 
     &:disabled,
     &:hover:disabled {
       color: $disabled-02;
-      background-color: $disabled-background-color;
-      border-bottom-color: $disabled-background-color;
+      background-color: $disabled-01;
+      border-bottom-color: $disabled-01;
       cursor: not-allowed;
     }
   }
@@ -23540,7 +24726,7 @@ Select styles
     &:disabled,
     &:hover:disabled {
       color: $disabled-02;
-      background-color: $disabled-background-color;
+      background-color: $field-02;
       cursor: not-allowed;
     }
   }
@@ -23575,11 +24761,6 @@ Select styles
   .#{$prefix}--select-option {
     // For the options to show in IE11
     color: $text-01;
-  }
-
-  .#{$prefix}--select-option[disabled] {
-    cursor: not-allowed;
-    opacity: 0.5;
   }
 
   // Override some Firefox user-agent styles
@@ -23619,6 +24800,7 @@ Select styles
   }
 
   .#{$prefix}--select--inline .#{$prefix}--select-input {
+    width: auto;
     padding-right: $spacing-07;
     padding-left: $carbon--spacing-03;
     color: $text-01;
@@ -23628,7 +24810,7 @@ Select styles
 
   .#{$prefix}--select--inline .#{$prefix}--select-input[disabled],
   .#{$prefix}--select--inline .#{$prefix}--select-input[disabled]:hover {
-    background-color: $disabled-background-color;
+    background-color: $disabled-01;
   }
 
   .#{$prefix}--select--inline .#{$prefix}--select__arrow {
@@ -23673,6 +24855,7 @@ Select styles
 
 - **Group**: [select](#select)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [carbon--mini-units [function]](#carbon--mini-units-function)
   - [prefix [variable]](#prefix-variable)
   - [spacing-09 [variable]](#spacing-09-variable)
@@ -23682,6 +24865,7 @@ Select styles
   - [ui-04 [variable]](#ui-04-variable)
   - [hover-ui [variable]](#hover-ui-variable)
   - [disabled-02 [variable]](#disabled-02-variable)
+  - [disabled-01 [variable]](#disabled-01-variable)
   - [field-02 [variable]](#field-02-variable)
   - [ui-05 [variable]](#ui-05-variable)
   - [support-01 [variable]](#support-01-variable)
@@ -23798,6 +24982,11 @@ Slider styles
       box-shadow: inset 0 0 0 2px $interactive-04, inset 0 0 0 3px $ui-01;
       // 20px / 14px = 1.4286
       transform: translate(-50%, -50%) scale(1.4286);
+
+      // Firefox HCM Fix
+      @media screen and (prefers-contrast) {
+        outline-style: dotted;
+      }
     }
 
     &:active {
@@ -23917,6 +25106,7 @@ Slider styles
 
 - **Group**: [slider](#slider)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
   - [text-01 [variable]](#text-01-variable)
@@ -24859,6 +26049,7 @@ Tabs styles
 - **Group**: [tabs](#tabs)
 - **Requires**:
   - [carbon--breakpoint [mixin]](#carbon--breakpoint-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [text-01 [variable]](#text-01-variable)
   - [spacing-09 [variable]](#spacing-09-variable)
@@ -24938,7 +26129,7 @@ Tag styles
     min-width: rem(32px);
     // restricts size of contained elements
     max-width: 100%;
-    min-height: 1.5rem;
+    min-height: rem(24px);
     margin: $carbon--spacing-02;
     padding: $carbon--spacing-02 $carbon--spacing-03;
     word-break: break-word;
@@ -25052,7 +26243,9 @@ Tag styles
 
   // tags used for filtering
   .#{$prefix}--tag--filter {
-    padding-right: rem(2px);
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
     cursor: pointer;
 
     &:hover {
@@ -25061,16 +26254,36 @@ Tag styles
   }
 
   .#{$prefix}--tag__close-icon {
+    display: flex;
     flex-shrink: 0;
-    width: rem(16px);
-    height: rem(16px);
-    margin: 0 0 0 rem(4px);
+    align-items: center;
+    justify-content: center;
+    width: rem(24px);
+    height: rem(24px);
+    margin: 0 0 0 rem(2px);
     padding: 0;
     color: currentColor;
     background-color: transparent;
     border: 0;
     border-radius: 50%;
     cursor: pointer;
+    transition: background-color $duration--fast-01 motion(standard, productive),
+      box-shadow $duration--fast-01 motion(standard, productive);
+    svg {
+      fill: currentColor;
+    }
+  }
+
+  .#{$prefix}--tag__custom-icon {
+    flex-shrink: 0;
+    width: rem(16px);
+    height: rem(16px);
+    margin-right: $spacing-02;
+    padding: 0;
+    color: currentColor;
+    background-color: transparent;
+    border: 0;
+    outline: none;
 
     svg {
       fill: currentColor;
@@ -25084,11 +26297,18 @@ Tag styles
   .#{$prefix}--tag__close-icon:focus {
     border-radius: 50%;
     outline: none;
-    box-shadow: inset 0 0 0 2px $focus;
+    box-shadow: inset 0 0 0 1px $focus;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      outline: 1px solid ButtonText;
+    }
   }
 
   .#{$prefix}--tag--high-contrast .#{$prefix}--tag__close-icon:focus {
-    box-shadow: inset 0 0 0 2px $inverse-focus-ui;
+    box-shadow: inset 0 0 0 1px $inverse-focus-ui;
   }
 
   .#{$prefix}--tag--filter.#{$prefix}--tag--disabled
@@ -25098,6 +26318,22 @@ Tag styles
 
   .#{$prefix}--tag--filter.#{$prefix}--tag--disabled svg {
     fill: $disabled-02;
+  }
+
+  // small tags
+  .#{$prefix}--tag--sm {
+    min-height: rem(18px);
+    padding: 0 $carbon--spacing-03;
+  }
+
+  .#{$prefix}--tag--sm.#{$prefix}--tag--filter {
+    padding-right: 0;
+  }
+
+  .#{$prefix}--tag--sm .#{$prefix}--tag__close-icon {
+    width: rem(18px);
+    height: rem(18px);
+    margin-left: rem(5px);
   }
 
   // Skeleton state
@@ -25116,6 +26352,7 @@ Tag styles
 - **Group**: [tag](#tag)
 - **Requires**:
   - [tag-theme [mixin]](#tag-theme-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-02 [variable]](#carbon--spacing-02-variable)
   - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
@@ -25124,6 +26361,7 @@ Tag styles
   - [inverse-hover-ui [variable]](#inverse-hover-ui-variable)
   - [disabled-01 [variable]](#disabled-01-variable)
   - [disabled-02 [variable]](#disabled-02-variable)
+  - [spacing-02 [variable]](#spacing-02-variable)
   - [focus [variable]](#focus-variable)
   - [inverse-focus-ui [variable]](#inverse-focus-ui-variable)
   - [ui-03 [variable]](#ui-03-variable)
@@ -25226,6 +26464,7 @@ Text area styles
 
 - **Group**: [text-area](#text-area)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
   - [text-01 [variable]](#text-01-variable)
@@ -25315,7 +26554,7 @@ Text input styles
     .#{$prefix}--text-input__invalid-icon--warning {
       fill: $support-03;
 
-      path[data-icon-path='inner-path'] {
+      path:first-of-type {
         opacity: 1;
         fill: $carbon__black-100;
       }
@@ -25341,6 +26580,13 @@ Text input styles
 
       svg {
         fill: $icon-02;
+
+        // Windows, Firefox HCM Fix
+        @media screen and (-ms-high-contrast: active),
+          screen and (prefers-contrast) {
+          // `ButtonText` is a CSS2 system color to help improve colors in HCM
+          fill: ButtonText;
+        }
       }
     }
 
@@ -25373,7 +26619,11 @@ Text input styles
     + .#{$prefix}--text-input--password__visibility__toggle
     svg {
     cursor: not-allowed;
-    opacity: 0.5;
+    fill: $disabled-02;
+
+    &:hover {
+      fill: $disabled-02;
+    }
   }
 
   //-----------------------------
@@ -25543,6 +26793,7 @@ Text input styles
 
 - **Group**: [text-input](#text-input)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
   - [text-01 [variable]](#text-01-variable)
@@ -25580,13 +26831,6 @@ Tile styles
 
     &:focus {
       @include focus-outline('outline');
-
-      // Windows, Firefox HCM Fix
-      @media screen and (-ms-high-contrast: active),
-        screen and (prefers-contrast) {
-        outline: 3px solid transparent;
-        outline-offset: -3px;
-      }
     }
   }
 
@@ -25662,11 +26906,14 @@ Tile styles
 
   .#{$prefix}--tile__chevron {
     position: absolute;
-    right: 0.5rem;
-    bottom: 0.5rem;
+    right: $carbon--spacing-05;
+    bottom: $carbon--spacing-05;
+    display: flex;
+    align-items: flex-end;
     height: 1rem;
 
     svg {
+      margin-left: $carbon--spacing-03;
       transform-origin: center;
       transition: $duration--fast-02 motion(standard, productive);
       fill: $ui-05;
@@ -25776,6 +27023,7 @@ Tile styles
   - [text-01 [variable]](#text-01-variable)
   - [carbon--spacing-09 [variable]](#carbon--spacing-09-variable)
   - [icon-02 [variable]](#icon-02-variable)
+  - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
   - [ui-05 [variable]](#ui-05-variable)
 
 ## time-picker
@@ -25865,6 +27113,7 @@ Time picker styles
 
 - **Group**: [time-picker](#time-picker)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-01 [variable]](#carbon--spacing-01-variable)
   - [field-02 [variable]](#field-02-variable)
@@ -26241,6 +27490,13 @@ Toggle styles
     + .#{$prefix}--toggle-input__label
     > .#{$prefix}--toggle__switch::before {
     box-shadow: 0 0 0 1px $ui-02, 0 0 0 3px $focus;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      outline: 1px solid ButtonText;
+    }
   }
 
   //----------------------------------------------
@@ -26340,6 +27596,7 @@ Toggle styles
 - **Group**: [toggle](#toggle)
 - **Requires**:
   - [carbon--rem [function]](#carbon--rem-function)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
   - [ui-04 [variable]](#ui-04-variable)
@@ -26484,6 +27741,7 @@ Toolbar styles
 
 - **Group**: [toolbar](#toolbar)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [text-02 [variable]](#text-02-variable)
   - [field-02 [variable]](#field-02-variable)
@@ -26566,6 +27824,7 @@ Toolbar styles
 
 - **Group**: [tooltip](#tooltip)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [inverse-02 [variable]](#inverse-02-variable)
   - [inverse-01 [variable]](#inverse-01-variable)
 - **Used by**:
@@ -26759,6 +28018,7 @@ Toolbar styles
 
 - **Group**: [tooltip](#tooltip)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [text-01 [variable]](#text-01-variable)
   - [interactive-01 [variable]](#interactive-01-variable)
@@ -26939,6 +28199,58 @@ Tooltip styles
     &:focus {
       outline: 0;
       box-shadow: inset 0 0 0 1px $inverse-02, inset 0 0 0 2px $ui-background;
+    }
+
+    &.#{$prefix}--tooltip--top.#{$prefix}--tooltip--align-start,
+    &.#{$prefix}--tooltip--bottom.#{$prefix}--tooltip--align-start {
+      transform: translate(calc(50% - 22px), 0);
+
+      .#{$prefix}--tooltip__caret {
+        margin-left: 15px;
+      }
+    }
+
+    &.#{$prefix}--tooltip--top.#{$prefix}--tooltip--align-end,
+    &.#{$prefix}--tooltip--bottom.#{$prefix}--tooltip--align-end {
+      transform: translate(calc(22px - 50%), 0);
+
+      .#{$prefix}--tooltip__caret {
+        margin-right: 15px;
+      }
+    }
+
+    &.#{$prefix}--tooltip--left.#{$prefix}--tooltip--align-start {
+      transform: translate(0, calc(-15px + 50%));
+
+      .#{$prefix}--tooltip__caret {
+        top: 14px;
+      }
+    }
+
+    &.#{$prefix}--tooltip--left.#{$prefix}--tooltip--align-end {
+      transform: translate(0, calc(31px - 50%));
+
+      .#{$prefix}--tooltip__caret {
+        top: initial;
+        bottom: 25px;
+      }
+    }
+
+    &.#{$prefix}--tooltip--right.#{$prefix}--tooltip--align-start {
+      transform: translate(0, calc(-26px + 50%));
+
+      .#{$prefix}--tooltip__caret {
+        top: 26px;
+      }
+    }
+
+    &.#{$prefix}--tooltip--right.#{$prefix}--tooltip--align-end {
+      transform: translate(0, calc(20px - 50%));
+
+      .#{$prefix}--tooltip__caret {
+        top: initial;
+        bottom: 12px;
+      }
     }
 
     p {
@@ -27203,6 +28515,7 @@ Tooltip styles
   - [carbon--type-style [mixin]](#carbon--type-style-mixin)
   - [tooltip--definition--legacy [mixin]](#tooltip--definition--legacy-mixin)
   - [tooltip--icon--legacy [mixin]](#tooltip--icon--legacy-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [text-02 [variable]](#text-02-variable)
   - [icon-02 [variable]](#icon-02-variable)
@@ -27359,6 +28672,7 @@ Treeview styles
 
 - **Group**: [treeview](#treeview)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [spacing-05 [variable]](#spacing-05-variable)
   - [text-02 [variable]](#text-02-variable)
@@ -27553,11 +28867,9 @@ UI shell header
     border-color: $shell-header-focus;
     outline: none;
 
-    // Windows, Firefox HCM Fix
-    @media screen and (-ms-high-contrast: active),
-      screen and (prefers-contrast) {
-      outline: 3px solid transparent;
-      outline-offset: -3px;
+    // Firefox HCM Fix
+    @media screen and (prefers-contrast) {
+      border-style: dotted;
     }
   }
 
@@ -27611,6 +28923,13 @@ UI shell header
 
   a.#{$prefix}--header__name:focus {
     border-color: $shell-header-focus;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      border-style: dotted;
+    }
   }
 
   .#{$prefix}--header__name--prefix {
@@ -27702,8 +29021,7 @@ UI shell header
     // Windows, Firefox HCM Fix
     @media screen and (-ms-high-contrast: active),
       screen and (prefers-contrast) {
-      outline: 3px solid transparent;
-      outline-offset: -3px;
+      border-style: dotted;
     }
   }
 
@@ -27856,6 +29174,7 @@ UI shell header
 - **Requires**:
   - [carbon--breakpoint [mixin]](#carbon--breakpoint-mixin)
   - [mini-units [function]](#mini-units-function)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [shell-header-bg-01 [variable]](#shell-header-bg-01-variable)
   - [shell-header-border-01 [variable]](#shell-header-border-01-variable)
@@ -28085,6 +29404,7 @@ UI shell navigation
 - **Group**: [ui-shell](#ui-shell)
 - **Requires**:
   - [mini-units [function]](#mini-units-function)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
 
 ### ❌product-switcher [mixin]
@@ -28615,17 +29935,10 @@ UI shell side nav
     overflow-y: auto;
   }
 
-  // Force all of our side navigation items to be the same dimensions. When our
-  // menu expands, we can undo the forced dimensions.
   .#{$prefix}--side-nav__item {
-    width: mini-units(6);
-    height: mini-units(6);
+    width: auto;
+    height: auto;
     overflow: hidden;
-
-    @include expanded() {
-      width: auto;
-      height: auto;
-    }
   }
 
   .#{$prefix}--side-nav--ux .#{$prefix}--side-nav__item {
@@ -28688,13 +30001,6 @@ UI shell side nav
 
   .#{$prefix}--side-nav__submenu:focus {
     @include focus-outline('outline');
-
-    // Windows, Firefox HCM Fix
-    @media screen and (-ms-high-contrast: active),
-      screen and (prefers-contrast) {
-      outline: 3px solid transparent;
-      outline-offset: -3px;
-    }
   }
 
   .#{$prefix}--side-nav__submenu-title {
@@ -28826,13 +30132,6 @@ UI shell side nav
   a.#{$prefix}--side-nav__link:focus,
   .#{$prefix}--side-nav a.#{$prefix}--header__menu-item:focus {
     @include focus-outline('outline');
-
-    // Windows, Firefox HCM Fix
-    @media screen and (-ms-high-contrast: active),
-      screen and (prefers-contrast) {
-      outline: 3px solid transparent;
-      outline-offset: -3px;
-    }
   }
 
   a.#{$prefix}--side-nav__link[aria-current='page'],
@@ -29015,6 +30314,7 @@ UI shell side nav
   - [expanded [mixin]](#expanded-mixin)
   - [text-overflow [mixin]](#text-overflow-mixin)
   - [mini-units [function]](#mini-units-function)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [shell-side-nav-text-01 [variable]](#shell-side-nav-text-01-variable)
   - [shell-side-nav-bg-01 [variable]](#shell-side-nav-bg-01-variable)
@@ -29103,6 +30403,7 @@ UI shell side nav
 - **Group**: [ui-shell](#ui-shell)
 - **Requires**:
   - [carbon--type-style [mixin]](#carbon--type-style-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [shell-panel-text-01 [variable]](#shell-panel-text-01-variable)
   - [spacing-07 [variable]](#spacing-07-variable)
