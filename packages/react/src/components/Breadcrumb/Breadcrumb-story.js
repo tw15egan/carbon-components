@@ -16,7 +16,7 @@ import OverflowMenuItem from '../OverflowMenuItem';
 import mdx from './Breadcrumb.mdx';
 
 export default {
-  title: 'Breadcrumb',
+  title: 'Components/Breadcrumb',
   component: Breadcrumb,
   subcomponents: {
     BreadcrumbItem,
